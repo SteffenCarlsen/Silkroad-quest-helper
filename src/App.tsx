@@ -31,7 +31,7 @@ function QuestDetails({ quest, planned, onAdd, onSelectNpc }: { quest: Quest; pl
       <dl className="facts"><div><dt>Repeat</dt><dd>{quest.repeatCount}×</dd></div><div><dt>Quest ID</dt><dd>#{quest.id}</dd></div></dl>
       {quest.prerequisiteQuestIds.length > 0 && <p><strong>Requires:</strong> {quest.prerequisiteQuestIds.map((id) => questById.get(id)?.name).join(", ")}</p>}
       {quest.mutuallyExclusiveQuestIds.length > 0 && <p className="warning"><strong>Choose one:</strong> mutually exclusive with {quest.mutuallyExclusiveQuestIds.map((id) => questById.get(id)?.name).join(", ")}.</p>}
-      {quest.targetMonsterIds.length > 0 && <><h3>Known habitat targets</h3><ul className="target-list">{quest.targetMonsterIds.map((id) => { const monster = monsterById.get(id); return monster && <li key={id}>{monster.name} <span>Lv. {monster.level}</span></li>; })}</ul><p className="habitat-note">Areas and pins come from Crown's client guide data, not exact server spawn points.</p></>}
+      {quest.targetMonsterIds.length > 0 && <><h3>Known habitat targets</h3><ul className="target-list">{quest.targetMonsterIds.map((id) => { const monster = monsterById.get(id); return monster && <li key={id}>{monster.name} <span>Lv. {monster.level}</span></li>; })}</ul><p className="habitat-note">Areas and pins come from PK2 client guide data, not exact server spawn points.</p></>}
       <h3>Steps</h3>
       <ol>{quest.steps.map((step, index) => <li key={index}>{step}</li>)}</ol>
       <h3>Rewards</h3>
@@ -145,7 +145,7 @@ export default function App() {
         </aside>
       </main>
 
-      <footer>Quest facts from <a href={sourceData.questList.url}>Shinakuma's level 1–80 list</a>. Map and NPC data from <a href="https://github.com/JellyBitz/xSROMap">xSROMap</a> at commit {sourceData.xSROMap.commit}. Monster habitats use Crown client guide data and are not exact server spawns. Silkroad Online belongs to its respective owners.</footer>
+      <footer>Quest facts from <a href={sourceData.questList.url}>Shinakuma's level 1–80 list</a>. Map and NPC data from <a href="https://github.com/JellyBitz/xSROMap">xSROMap</a> at commit {sourceData.xSROMap.commit}. Monster habitats use PK2 client guide data and are not exact server spawns. Silkroad Online belongs to its respective owners.</footer>
     </div>
   );
 }

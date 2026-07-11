@@ -8,7 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "import:data": "node scripts/import-data.mjs",
-    "import:crown-monsters": "node scripts/import-crown-monsters.mjs",
+    "import:pk2-monsters": "node scripts/import-pk2-monsters.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "test": "vitest run",
     "check": "npm run validate:data && npm test && npm run build"

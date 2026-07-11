@@ -338,4 +338,4 @@ await Promise.all([
 
 console.log(`Imported ${quests.length} quests and ${npcs.length} NPCs.`);
 console.log(`${audit.unmatchedGivers.length} unmatched givers; ${audit.unmatchedRelated.length} unmatched related NPC mentions.`);
-console.log(`${audit.unmatchedMonsters.length} monster mentions have no Crown guide habitat.`);
+console.log(`${audit.unmatchedMonsters.length} monster mentions have no PK2 guide habitat.`);

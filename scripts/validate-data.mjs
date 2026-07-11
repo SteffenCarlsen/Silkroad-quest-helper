@@ -49,7 +49,7 @@ for (const quest of quests) {
 }
 
 const sweepingMujigi = quests.find((quest) => quest.name === "Sweeping Mujigi");
-assert.deepEqual(sweepingMujigi?.targetMonsterIds, [1991, 2110], "Sweeping Mujigi must target the Crown Mujigi and Ujigi records");
+assert.deepEqual(sweepingMujigi?.targetMonsterIds, [1991, 2110], "Sweeping Mujigi must target the PK2 Mujigi and Ujigi records");
 for (const id of sweepingMujigi.targetMonsterIds) {
   const monster = habitatData.monsters.find((candidate) => candidate.id === id);
   assert.equal(monster.habitatRegions.length, 3, `${monster.name} must retain all three known guide habitats`);

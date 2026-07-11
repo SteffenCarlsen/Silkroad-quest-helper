@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile, writeFile } from "node:fs/promises";
 
 const catalogPath = process.argv[2];
-if (!catalogPath) throw new Error("Usage: npm run import:crown-monsters -- <catalog-with-guides.json>");
+if (!catalogPath) throw new Error("Usage: npm run import:pk2-monsters -- <catalog-with-guides.json>");
 
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 
@@ -43,7 +43,7 @@ assert.deepEqual(mujigi?.habitatRegions.map(({ regionX, regionY }) => `${regionX
 
 const output = {
   source: {
-    archive: "Crown Silkroad Media.cro",
+    archive: "Silkroad Media PK2 files",
     files: ["worldmapguidedata.txt", "worldmapguidedata_region.txt"],
     precision: "Client guide habitats and representative pins; not exact server spawn points.",
   },
@@ -51,4 +51,4 @@ const output = {
 };
 
 await writeFile(new URL("../src/data/monster-habitats.json", import.meta.url), `${JSON.stringify(output, null, 2)}\n`);
-console.log(`Exported ${monsters.length} guided Crown monsters.`);
+console.log(`Exported ${monsters.length} guided PK2 monsters.`);
