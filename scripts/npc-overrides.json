@@ -1,0 +1,15 @@
+{
+  "sonheyon": { "npcId": 186, "reason": "Transliteration of General Sonhyeon; source and map positions are about 6 game units apart." },
+  "myosoryeong": { "npcId": 172, "reason": "Transliteration of Exorcist Miaoryeong; positions are about 3 game units apart." },
+  "cheolhyeon": { "npcId": 38, "reason": "The quest source uses Cheolhyeon at the Blacksmith Chulsan position; positions are about 5 game units apart." },
+  "gwaki": { "npcId": 253, "reason": "Transliteration of Hunter Associate Gwakwi at the same position." },
+  "fa": { "npcId": 47, "reason": "Buddhist Priest Fa is the closest same-name NPC, about 4 game units from the source position." },
+  "makho": { "npcId": 632, "reason": "Transliteration of Stable-Keeper Makgo; positions are about 4 game units apart." },
+  "batu": { "npcId": 583, "reason": "Same-name Soldier Batu; the quest article omits the negative sign from the Hotan X coordinate." },
+  "mampje": { "npcId": 269, "reason": "Source typo/transliteration of Jewel Lapidary Mamoje at the same position." },
+  "markham": { "npcId": 601, "reason": "Source typo/transliteration of Soldier Makhan; positions are about 7 game units apart." },
+  "hyeon": { "npcId": 48, "reason": "Buddhist Priest Hyeon is the closest same-name NPC, about 5 game units from the source position." },
+  "manina": { "npcId": 522, "reason": "Potion Merchant Manina is about 2 game units from the source position; malformed source HTML joined monster names to the giver." },
+  "salihap": { "npcId": 633, "reason": "Stable-Keeper Salihap is the same named NPC; malformed source HTML joined monster names to the giver and its coordinate differs from the newer map." },
+  "leeguk": { "npcId": 321, "reason": "Source spelling of Merchant Associate Leegeuk, referenced without coordinates in a related step." }
+}

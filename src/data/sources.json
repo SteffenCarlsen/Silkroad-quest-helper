@@ -1,0 +1,23 @@
+{
+  "xSROMap": {
+    "url": "https://raw.githubusercontent.com/JellyBitz/xSROMap/52bfffef4467/assets/js/main.js",
+    "commit": "52bfffef4467",
+    "sha256": "d1cf0dceaf5dd0030189d20383d1537455f621a8140138adae4309e75d6ffa8e",
+    "license": "MIT"
+  },
+  "questList": {
+    "url": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/",
+    "apiUrl": "https://public-api.wordpress.com/rest/v1.1/sites/shinakuma.wordpress.com/posts/slug:questler-lvl-1-80",
+    "postId": 8,
+    "modified": "2007-02-23T07:10:34+00:00",
+    "sha256": "61f14c8e2ce96e6016f2d63e81af674ad05648691073df4eeb879577d7e4f976"
+  },
+  "supplementalQuests": {
+    "url": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html",
+    "names": [
+      "Noise Pollution",
+      "The Powerful Looking Accessory"
+    ],
+    "evidence": "User-provided in-game screenshots; level corroborated by linked quest list."
+  }
+}

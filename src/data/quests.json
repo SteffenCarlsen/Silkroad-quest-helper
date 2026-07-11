@@ -1,0 +1,2275 @@
+[
+  {
+    "id": 1,
+    "name": "Chinese Tutorial",
+    "level": 1,
+    "repeatCount": 1,
+    "giverNpcId": 186,
+    "relatedNpcIds": [
+      537,
+      196,
+      235
+    ],
+    "targetMonsterIds": [
+      1933
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Speak with the protector merchant MRS JANG (6371,1067) and return to General",
+      "Step 2: Speak with the owner of the general shop JINJIN (6498,1067),equip the ring she gives you and return to General",
+      "Step 3: Speak with the herbalist shop owner YANGYUN (6491,1100),buy a HP recovery herb and return to General",
+      "Step 4: Defeat 30 Mangyangs and then return to General"
+    ],
+    "rewards": [
+      "Step1:",
+      "exp: 60 +",
+      "item: copper hand shell",
+      "Step2:",
+      "exp: 60 +",
+      "item: copper ring",
+      "Step3:",
+      "exp: 60",
+      "Step4:",
+      "exp: 350 +",
+      "item: HP recovery herb X 30"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 2,
+    "name": "Weapon delivery",
+    "level": 1,
+    "repeatCount": 1,
+    "giverNpcId": 38,
+    "relatedNpcIds": [
+      593
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      1
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Speak with the guard of the south gate JINGYO (6429,965) and take weapon instruction booklet back to CHULSAN"
+    ],
+    "rewards": [
+      "exp: 255",
+      "gold: 205"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 3,
+    "name": "Vanished Child",
+    "level": 3,
+    "repeatCount": 1,
+    "giverNpcId": 682,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1934,
+      1935
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Small Eye Ghost or Big Eye Ghost, until one drops Child Shoes bring it to the Village Chief"
+    ],
+    "rewards": [
+      "exp: 375",
+      "gold: 475"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 4,
+    "name": "Battle with weasel",
+    "level": 3,
+    "repeatCount": 1,
+    "giverNpcId": 592,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1936,
+      1937
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 40 Old Weasels or Weasels (outside of east gate), return to him when you complete it"
+    ],
+    "rewards": [
+      "exp: 1,900",
+      "gold: 1,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 5,
+    "name": "Yangyun anxiety",
+    "level": 5,
+    "repeatCount": 1,
+    "giverNpcId": 235,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1938,
+      1939
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 50 Water Ghost slave or Water Ghost, return to him when you complete it"
+    ],
+    "rewards": [
+      "exp: 3,800",
+      "item: HP recovery herb X 28"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 6,
+    "name": "Inventory Expansion 1",
+    "level": 5,
+    "repeatCount": 1,
+    "giverNpcId": 196,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1933
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Mangyangs and help JINJIN Gather Mangyang straw."
+    ],
+    "rewards": [
+      "10 slot expansion in inventory"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 7,
+    "name": "Water Ghost Poison",
+    "level": 6,
+    "repeatCount": 1,
+    "giverNpcId": 235,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1938,
+      1939
+    ],
+    "prerequisiteQuestIds": [
+      5
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Water Ghost slave or Water Ghost for 20 poisons"
+    ],
+    "rewards": [
+      "exp: 6,600",
+      "sxp: 4,000",
+      "item: MP recovery herb X 50"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 8,
+    "name": "Sweeping Stone Ghost",
+    "level": 7,
+    "repeatCount": 1,
+    "giverNpcId": 577,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1940,
+      1941
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 40 Broken Stone Ghosts or Stone Ghosts (Near Chins Tomb)"
+    ],
+    "rewards": [
+      "exp: 4,500",
+      "gold: 2,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 9,
+    "name": "Cleaning Tomb Stones",
+    "level": 7,
+    "repeatCount": 1,
+    "giverNpcId": 49,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather all the stone pieces need for quest"
+    ],
+    "rewards": [
+      "exp: 10,500",
+      "gold: 3,800",
+      "item: Lvl10 horse summon scroll"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 10,
+    "name": "Tree Spirit",
+    "level": 8,
+    "repeatCount": 1,
+    "giverNpcId": 172,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1942,
+      1943
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Decayed Yeoha or Yeoha for 30 “Yeoha Black Blood“"
+    ],
+    "rewards": [
+      "item: lv 10 weapon of your class"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 11,
+    "name": "Adventurer's Stone",
+    "level": 9,
+    "repeatCount": 1,
+    "giverNpcId": 2,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1941
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Stone Ghost for 20 Adventurers"
+    ],
+    "rewards": [
+      "exp: 5,000",
+      "gold: 3,500",
+      "item: Adventurer's Shift Scroll"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 12,
+    "name": "Purification Ground",
+    "level": 10,
+    "repeatCount": 1,
+    "giverNpcId": 172,
+    "relatedNpcIds": [
+      50
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      10
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Take the Yeoha Black Blood to Indian Buddhist Monk KUSHYAN (6596,1163) and return to MYOSORYEONG"
+    ],
+    "rewards": [
+      "exp: 12,700",
+      "sxp: 4,500",
+      "gold: 4,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 13,
+    "name": "Sweeping Bandit Archer",
+    "level": 10,
+    "repeatCount": 1,
+    "giverNpcId": 271,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1945
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 50 Bandit Archer"
+    ],
+    "rewards": [
+      "exp: 9,500",
+      "item: MP recovery herb X 50"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 14,
+    "name": "Bandit Operation Map",
+    "level": 11,
+    "repeatCount": 1,
+    "giverNpcId": 271,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1945
+    ],
+    "prerequisiteQuestIds": [
+      13
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Bandit Archer for 20 Operation Map pieces"
+    ],
+    "rewards": [
+      "exp: 28,200",
+      "sxp: 10,000",
+      "gold: 8,000",
+      "item: HP recovery potions"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 15,
+    "name": "Sweeping Bandit",
+    "level": 13,
+    "repeatCount": 1,
+    "giverNpcId": 226,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1949,
+      1948
+    ],
+    "prerequisiteQuestIds": [
+      13
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 50 Bandits or Bandit subordinates"
+    ],
+    "rewards": [
+      "exp: 14,500",
+      "item: HP recovery potions X 50"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 16,
+    "name": "Tiger Grinding Tooth",
+    "level": 13,
+    "repeatCount": 1,
+    "giverNpcId": 618,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1946,
+      1947
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Young Tiger or Tiger for 10 Molar Teeth"
+    ],
+    "rewards": [
+      "exp: 15,300",
+      "sxp: 5,000",
+      "gold: 4,400"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 17,
+    "name": "Tiger Hunting Competition",
+    "level": 13,
+    "repeatCount": 1,
+    "giverNpcId": 186,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1947,
+      1946
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Defeat 1 Tiger champion, 20 Tiger and 20 Young Tiger and return to him",
+      "Step 1: Defeat 3 Tiger champion, 30 Tiger and 30 Young Tiger and return to him",
+      "Step 1: Defeat 5 Tiger champion, 40 Tiger and 40 Young Tiger and return to him"
+    ],
+    "rewards": [
+      "Step1:",
+      "exp: 6,700 +",
+      "sxp: 2,050 +",
+      "item: HP recovery potions(small) X 63",
+      "Step2:",
+      "exp: 10,500 +",
+      "sxp: 3,200 +",
+      "Gold: 2,600",
+      "Step3:",
+      "exp: 15,800 +",
+      "sxp: 4,300 +",
+      "item: Tiger's Violence scroll (Increases damage by 20% for 1 hour)"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 18,
+    "name": "Cheolhyeon Anger",
+    "level": 15,
+    "repeatCount": 1,
+    "giverNpcId": 38,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1944
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 200 Bandit Bowman"
+    ],
+    "rewards": [
+      "exp: 26,500",
+      "sxp: 10,000",
+      "item: First-class Transsexual tool scroll (Change any defensive item under 3 degree gender)"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 19,
+    "name": "Stolen Sword",
+    "level": 16,
+    "repeatCount": 1,
+    "giverNpcId": 253,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1949
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Bandits once you get the stolen sword,return it to GWAKI"
+    ],
+    "rewards": [
+      "exp: 18,800",
+      "sxp: 3,600",
+      "gold: 5,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 20,
+    "name": "Hunting white tigers",
+    "level": 16,
+    "repeatCount": 1,
+    "giverNpcId": 631,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1953
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 40 White Tiger"
+    ],
+    "rewards": [
+      "exp: 12,500",
+      "gold: 4,300"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 21,
+    "name": "Herb Delivery",
+    "level": 17,
+    "repeatCount": 1,
+    "giverNpcId": 235,
+    "relatedNpcIds": [
+      179
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Take a packet of herbs to Ferry ticker seller CHAU (444,9928) at Chinese Western Ferry and return to YANGYUN"
+    ],
+    "rewards": [
+      "exp: 14,400",
+      "sxp: 3,600",
+      "gold: 3,800"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 22,
+    "name": "Yangyun Request",
+    "level": 17,
+    "repeatCount": 1,
+    "giverNpcId": 235,
+    "relatedNpcIds": [
+      180,
+      179
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      21
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Delivery 2 books to DOJI (4449,928) at Eastern Ferry and CHAU (444,9928) at Western Ferry. Return to YANGYUN for rewards"
+    ],
+    "rewards": [
+      "exp: 18,800",
+      "sxp: 4,500",
+      "item: MP recovery potions(small) X 125"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 23,
+    "name": "Black Tiger Talon",
+    "level": 17,
+    "repeatCount": 1,
+    "giverNpcId": 2,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1952
+    ],
+    "prerequisiteQuestIds": [
+      11
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Black Tiger for 60 Black Tiger Claw"
+    ],
+    "rewards": [
+      "exp: 60,000",
+      "sxp: 15,000",
+      "gold: 15,700"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 24,
+    "name": "White Tiger Skin",
+    "level": 18,
+    "repeatCount": 2,
+    "giverNpcId": 618,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1953
+    ],
+    "prerequisiteQuestIds": [
+      16
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Defeat White Tiger for 100 White Tiger Skin and return to him",
+      "Step 2: Defeat White Tiger for 100 White Tiger Skin and return to him",
+      "Step 3: Defeat White Tiger for 200 White Tiger Skin and return to him"
+    ],
+    "rewards": [
+      "Step1:",
+      "exp: 42,300 +",
+      "sxp: 10,000 +",
+      "gold: 10,900",
+      "Step2:",
+      "exp: 42,300 +",
+      "sxp: 10,000 +",
+      "gold: 10,900",
+      "Step3:",
+      "exp: 84,600 +",
+      "sxp: 20,000 +",
+      "item: Tiger Strength Scroll(Absorb 20% damage for 1 hour)"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 25,
+    "name": "Folk Remedy",
+    "level": 19,
+    "repeatCount": 1,
+    "giverNpcId": 179,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1955,
+      1956
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Chakji Worker or Chakji for 100 Chakji eyes"
+    ],
+    "rewards": [
+      "exp: 112,000",
+      "sxp: 25,000",
+      "gold: 28,500"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 26,
+    "name": "Chakji Hunting",
+    "level": 19,
+    "repeatCount": 1,
+    "giverNpcId": 181,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1955,
+      1956
+    ],
+    "prerequisiteQuestIds": [
+      25
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 600 Chakji Worker or Chakji"
+    ],
+    "rewards": [
+      "exp: 141,000",
+      "sxp: 30,000",
+      "item: Reverse Return scroll(Return to the original spot that you casted your “returning scroll”)"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 27,
+    "name": "Ghost Bug Eggs",
+    "level": 19,
+    "repeatCount": 1,
+    "giverNpcId": 234,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1958,
+      1960
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Ghost Bug or Devil Bug for 10 Bug Eggs"
+    ],
+    "rewards": [
+      "exp: 14,800",
+      "sxp: 3,800"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 28,
+    "name": "Hyungno's Revengeful Spirit",
+    "level": 21,
+    "repeatCount": 1,
+    "giverNpcId": 47,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2097,
+      2098
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 30 Hyungno Ghost Soldier or Hyungno Ghost"
+    ],
+    "rewards": [
+      "exp: 12,000",
+      "sxp: 3,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 29,
+    "name": "Leegak's Secret",
+    "level": 21,
+    "repeatCount": 1,
+    "giverNpcId": 615,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1958,
+      1960
+    ],
+    "prerequisiteQuestIds": [
+      27
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Ghost Bug or Devil Bug for 150 Ghost Bug Eggs"
+    ],
+    "rewards": [
+      "exp: 150,000",
+      "sxp: 30,000",
+      "gold: 37,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 30,
+    "name": "Peace Maker",
+    "level": 22,
+    "repeatCount": 1,
+    "giverNpcId": 321,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1960
+    ],
+    "prerequisiteQuestIds": [
+      29
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Devil Bug for 100 Devil Wings"
+    ],
+    "rewards": [
+      "exp: 132,000",
+      "sxp: 25,000",
+      "item: Wing's Gesture(20% increase evasion rate for 1 hour)"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 31,
+    "name": "Demon Horse's Malice",
+    "level": 23,
+    "repeatCount": 1,
+    "giverNpcId": 632,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1968,
+      1967
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 60 Demon Horse or Devil Horse and return to MAKHO"
+    ],
+    "rewards": [
+      "exp: 19,800",
+      "gold: 4,800"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 32,
+    "name": "Memorial Service for Horse",
+    "level": 23,
+    "repeatCount": 1,
+    "giverNpcId": 632,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1968,
+      1967
+    ],
+    "prerequisiteQuestIds": [
+      31
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Demon Horse or Devil Horse for 50 Hooves"
+    ],
+    "rewards": [
+      "exp: 158,000",
+      "sxp: 25,000",
+      "gold: 35,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 33,
+    "name": "Trickery",
+    "level": 23,
+    "repeatCount": 1,
+    "giverNpcId": 604,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2097
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Hyungno Ghost Soldier for 200 “Hyungno Ghost Soldier Flags“"
+    ],
+    "rewards": [
+      "exp: 211,000",
+      "sxp: 40,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 34,
+    "name": "Flying Man Over Running Man",
+    "level": 24,
+    "repeatCount": 1,
+    "giverNpcId": 590,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2098
+    ],
+    "prerequisiteQuestIds": [
+      33
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Hyungno Ghost for 200 ” Hyungno Ghost Flags”"
+    ],
+    "rewards": [
+      "exp: 237,000",
+      "sxp: 40,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 35,
+    "name": "Martial Art Tournament",
+    "level": 24,
+    "repeatCount": 1,
+    "giverNpcId": 590,
+    "relatedNpcIds": [
+      186
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      34
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Take 2 “tournament application” scrolls to General SONHEYON (Jangan 6206,1177)"
+    ],
+    "rewards": [
+      "exp: 107,000",
+      "sxp: 40,000",
+      "item: HP recovery potion (Medium) X 250"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 36,
+    "name": "Making Yeosun Firecracker",
+    "level": 26,
+    "repeatCount": 1,
+    "giverNpcId": 201,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1964,
+      1965
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Meek Gun Powder or Gun Powder for 20 “Gun Powder Bombs“"
+    ],
+    "rewards": [
+      "exp: 16,300",
+      "gold: 3,800"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 37,
+    "name": "A Big Win",
+    "level": 26,
+    "repeatCount": 3,
+    "giverNpcId": 201,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1964,
+      1965
+    ],
+    "prerequisiteQuestIds": [
+      36
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Meek Gun Powder or Gun Powder for 200 “Gun Powder Bombs”"
+    ],
+    "rewards": [
+      "exp: 133,000",
+      "sxp: 20,000",
+      "gold: 34,500"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 38,
+    "name": "Firecrack Delivery",
+    "level": 26,
+    "repeatCount": 1,
+    "giverNpcId": 201,
+    "relatedNpcIds": [
+      196
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      37
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Speak with YEOSUN,you'll get a “Firework Bundle“,Take it to JINJIN (Jangan 6498,1067)"
+    ],
+    "rewards": [
+      "exp: 120,000",
+      "sxp: 3,000",
+      "item: Lucid Light scroll (20% increase Attack Rating for 3600 Seconds)"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 39,
+    "name": "Earth Ghost Hunting",
+    "level": 27,
+    "repeatCount": 1,
+    "giverNpcId": 632,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1963,
+      1962
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 500 Earth Ghost or Meek Earth Ghost"
+    ],
+    "rewards": [
+      "exp: 178,000",
+      "sxp: 25,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 40,
+    "name": "Leegak's Grudge",
+    "level": 28,
+    "repeatCount": 1,
+    "giverNpcId": 615,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1970
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 30 Hyeongcheon"
+    ],
+    "rewards": [
+      "exp: 14,000",
+      "item: VITALITY recovery potion (medium) X 10"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 41,
+    "name": "Earth Taoist's Charm",
+    "level": 28,
+    "repeatCount": 1,
+    "giverNpcId": 641,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1966,
+      2099
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Earth Taoist or Earth Magician for 15 amulets"
+    ],
+    "rewards": [
+      "exp: 20,000",
+      "sxp: 4,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 42,
+    "name": "Bad Charm #1",
+    "level": 29,
+    "repeatCount": 2,
+    "giverNpcId": 641,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1966,
+      2099
+    ],
+    "prerequisiteQuestIds": [
+      41
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Earth Taoist or Earth Magician for 100 rarity charms"
+    ],
+    "rewards": [
+      "exp: 169,000",
+      "sxp: 20,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 43,
+    "name": "Bad Charm #2",
+    "level": 29,
+    "repeatCount": 1,
+    "giverNpcId": 641,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1966,
+      2099
+    ],
+    "prerequisiteQuestIds": [
+      42
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Earth Taoist or Earth Magician for 200 rarity charms"
+    ],
+    "rewards": [
+      "exp: 337,000",
+      "sxp: 40,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 44,
+    "name": "Inventory Expansion 2",
+    "level": 30,
+    "repeatCount": 1,
+    "giverNpcId": 201,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1966
+    ],
+    "prerequisiteQuestIds": [
+      6
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Earth Taoist and help YEOSUN Gather Magic Charms."
+    ],
+    "rewards": [
+      "2 slot expansion in inventory"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 45,
+    "name": "Birthday Present Material",
+    "level": 32,
+    "repeatCount": 2,
+    "giverNpcId": 234,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1977
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Scorpion for 200 Poisons of Scorpion"
+    ],
+    "rewards": [
+      "exp: 371,000",
+      "sxp: 40,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 46,
+    "name": "Lachrymal Birthday Present",
+    "level": 32,
+    "repeatCount": 1,
+    "giverNpcId": 234,
+    "relatedNpcIds": [
+      615,
+      196
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      45
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Speak with LEEGAK (3497,2078) in Donwhang",
+      "Step 2: Go to Jangan and Speak with JINJIN (6498,1067)"
+    ],
+    "rewards": [
+      "exp: 65,000",
+      "sxp: 1,200",
+      "item: 60% Resuscitation scroll X2"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 47,
+    "name": "Lost Ring",
+    "level": 33,
+    "repeatCount": 1,
+    "giverNpcId": 602,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2102,
+      1978
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Blood Ong or Ong once you get the lost ring,return it to MANHO"
+    ],
+    "rewards": [
+      "exp: 121,000",
+      "sxp: 125,000",
+      "item: MP Recovery Potion (Medium) X 200"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 48,
+    "name": "Ancient Elf",
+    "level": 33,
+    "repeatCount": 3,
+    "giverNpcId": 587,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2101,
+      1979
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 1000 Blood Devil Flower or Blood Death Flower"
+    ],
+    "rewards": [
+      "exp: 487,000",
+      "item: repair hammer"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 49,
+    "name": "Leegeuk's Jewel",
+    "level": 34,
+    "repeatCount": 1,
+    "giverNpcId": 321,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2103,
+      1980
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Black Robber Follower or Black Robber for 200 Jewel of Leegeuk"
+    ],
+    "rewards": [
+      "gold: 250,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 50,
+    "name": "Yeowa's Scale",
+    "level": 35,
+    "repeatCount": 5,
+    "giverNpcId": 321,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2104
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Heukyeowa or Black Yeowa for 300 Yeowas scale"
+    ],
+    "rewards": [
+      "exp: 322,000",
+      "gold: 55,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 51,
+    "name": "Asa's Grumble",
+    "level": 35,
+    "repeatCount": 1,
+    "giverNpcId": 44,
+    "relatedNpcIds": [
+      321
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      50
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Speak with LEEGUK to receive Asas flute"
+    ],
+    "rewards": [
+      "item:Asas flute"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 52,
+    "name": "Wangwon's request",
+    "level": 35,
+    "repeatCount": 1,
+    "giverNpcId": 302,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      51
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Go to Jangan and Speak with Lottery seller WANGWON"
+    ],
+    "rewards": [],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 53,
+    "name": "Looking for Chinese Liquor",
+    "level": 35,
+    "repeatCount": 1,
+    "giverNpcId": 235,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1970,
+      1978,
+      2107
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Defeat Hyeongcheon for 100 Hyeongcheon powders",
+      "Step 2: Defeat Ong for 100 Ongs feelers",
+      "Step 3: Defeat Small Red Scorpion for 100 Legs of Small Red Scorpion",
+      "Step 4: Return to YANGYUN"
+    ],
+    "rewards": [
+      "exp: 40,000",
+      "sxp: 18,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 54,
+    "name": "Looking for European Liquor",
+    "level": 35,
+    "repeatCount": 1,
+    "giverNpcId": 2,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2099,
+      1979,
+      1984
+    ],
+    "prerequisiteQuestIds": [
+      53
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Defeat Earth Magician for 100 eyebrows of Earth Magician",
+      "Step 2: Defeat Blood Death Flower for 100 Blood Death Flowers leaves",
+      "Step 3: Defeat Red Scorpion for 100 Legs of Red Scorpion",
+      "Step 4: Return to FLORA"
+    ],
+    "rewards": [
+      "exp: 40,000",
+      "sxp: 18,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 55,
+    "name": "Huhoan's Book",
+    "level": 35,
+    "repeatCount": 1,
+    "giverNpcId": 302,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      54
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Go to Jangan and Speak with Lottery seller WANGWON"
+    ],
+    "rewards": [],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 56,
+    "name": "Drinking with Huhoan",
+    "level": 35,
+    "repeatCount": 1,
+    "giverNpcId": 58,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      55
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Go to Jangan Gambling house and Speak with HUHOAN.Give him the wine,When he says he wants more, ask about that book, and exchange it for the flute"
+    ],
+    "rewards": [
+      "exp: 320,400",
+      "sxp: 187,500",
+      "gold: 340,000"
+    ],
+    "notes": [],
+    "town": "Jangan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 57,
+    "name": "Hidden Jewel",
+    "level": 36,
+    "repeatCount": 5,
+    "giverNpcId": 254,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1981
+    ],
+    "prerequisiteQuestIds": [
+      49
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Black Robber Archer for 100 expensive jewels"
+    ],
+    "rewards": [
+      "exp: 537,000",
+      "sxp: 50,000",
+      "gold: 94,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 58,
+    "name": "Black Robber Bowsman's Bow",
+    "level": 37,
+    "repeatCount": 3,
+    "giverNpcId": 254,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2106
+    ],
+    "prerequisiteQuestIds": [
+      57
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Black Robber Bowman for 200 bows"
+    ],
+    "rewards": [
+      "exp: 592,000",
+      "sxp: 50,000",
+      "gold: 96,500"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 59,
+    "name": "Looking for Armor Materials",
+    "level": 38,
+    "repeatCount": 1,
+    "giverNpcId": 538,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1984,
+      2107
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Red Scorpion or Small Red Scorpion for 20 Red Scorpion Shells"
+    ],
+    "rewards": [
+      "exp: 75,000",
+      "gold: 13,500"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 60,
+    "name": "Dead Ravine",
+    "level": 39,
+    "repeatCount": 1,
+    "giverNpcId": 37,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1983,
+      2108
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 20 Red-eye Ghost or Dark-eye Ghost in 2 hours"
+    ],
+    "rewards": [
+      "exp: 62,000",
+      "gold: 6,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 61,
+    "name": "Broken Paddle",
+    "level": 40,
+    "repeatCount": 1,
+    "giverNpcId": 44,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1970
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Hyeongcheon for 100 Hard Stones"
+    ],
+    "rewards": [
+      "exp: 105,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 62,
+    "name": "Seeking Paddle Material",
+    "level": 40,
+    "repeatCount": 1,
+    "giverNpcId": 37,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1983,
+      2108
+    ],
+    "prerequisiteQuestIds": [
+      61
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Red-eye Ghost or Dark-eye Ghost for 100 Agols Irons"
+    ],
+    "rewards": [
+      "exp: 178,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 63,
+    "name": "Delivering Paddle",
+    "level": 40,
+    "repeatCount": 1,
+    "giverNpcId": 37,
+    "relatedNpcIds": [
+      44
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [
+      62
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Send 50 Paddles to Oasis Ticket agent SALMAI (1574,18)"
+    ],
+    "rewards": [
+      "exp: 221,500",
+      "sxp: 50,000",
+      "item:Instant Returning scroll X 5"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 64,
+    "name": "Bunwang highest grade nephrite",
+    "level": 45,
+    "repeatCount": 3,
+    "giverNpcId": 337,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1985,
+      1987
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Small Bunwang or Bunwang for 175 highest grade nephrite"
+    ],
+    "rewards": [
+      "exp: 700,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 65,
+    "name": "Clearing ultra blood devil",
+    "level": 46,
+    "repeatCount": 3,
+    "giverNpcId": 640,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2124
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 750 Ultra Blood Devil"
+    ],
+    "rewards": [
+      "exp: 750,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 66,
+    "name": "Duyuns Revenge",
+    "level": 48,
+    "repeatCount": 1,
+    "giverNpcId": 588,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1994,
+      1990
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 820 Golden Spider or White spider"
+    ],
+    "rewards": [
+      "exp: 800,000",
+      "sxp: 11,300"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 67,
+    "name": "Sweeping Mujigi",
+    "level": 49,
+    "repeatCount": 1,
+    "giverNpcId": 583,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1991,
+      2110
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Mujigi or Ujigi for 250 fingernails of Mujigis"
+    ],
+    "rewards": [
+      "exp: 1,075,000"
+    ],
+    "notes": [
+      "PS: You can get this quest just at night."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 68,
+    "name": "Seeking Ishades Ices",
+    "level": 51,
+    "repeatCount": 1,
+    "giverNpcId": 535,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2111,
+      2112
+    ],
+    "prerequisiteQuestIds": [
+      59
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Ishade or Hashade for 125 Ishade Ice"
+    ],
+    "rewards": [
+      "exp: 1,100,000",
+      "item:HP Recovery Potion (Large) X 50"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 69,
+    "name": "White Face Spider Web",
+    "level": 53,
+    "repeatCount": 3,
+    "giverNpcId": 535,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2113,
+      2114
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Blue-Face Spider or White-Face Spider for 210 White Spider Web"
+    ],
+    "rewards": [
+      "exp: 1,250,000",
+      "gold: 100,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 70,
+    "name": "Yeti stick",
+    "level": 59,
+    "repeatCount": 3,
+    "giverNpcId": 39,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1996,
+      2118
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Yeti or Devil Yeti for120 Yeti sticks"
+    ],
+    "rewards": [
+      "exp: 2,000,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 71,
+    "name": "Inventory Expansion 3",
+    "level": 60,
+    "repeatCount": 1,
+    "giverNpcId": 269,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1995
+    ],
+    "prerequisiteQuestIds": [
+      44
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Big White spider and help MAMPJE Gather Tough spider webs."
+    ],
+    "rewards": [
+      "2 slot expansion in inventory"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 72,
+    "name": "Solid Bug Ghost's shell",
+    "level": 61,
+    "repeatCount": 3,
+    "giverNpcId": 30,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3667,
+      1971
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Soil Ghost Bug or Earth Ghost Bug for 15 bug ghost's shell"
+    ],
+    "rewards": [
+      "exp: 2,200,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 73,
+    "name": "Sand Monster Tribe",
+    "level": 61,
+    "repeatCount": 3,
+    "giverNpcId": 601,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3796,
+      3798
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 1200 Shakram or Edimmu"
+    ],
+    "rewards": [
+      "exp: 1,950,000",
+      "gold: 197,500"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 74,
+    "name": "Hiring hunter guild",
+    "level": 63,
+    "repeatCount": 5,
+    "giverNpcId": 254,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1972
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 1500 Power Earth Ghost"
+    ],
+    "rewards": [
+      "exp: 2,500,000",
+      "gold: 250,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 75,
+    "name": "Baeksong's letter",
+    "level": 64,
+    "repeatCount": 1,
+    "giverNpcId": 581,
+    "relatedNpcIds": [
+      263,
+      633
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Step 1: Speak with Jangan Islam merchant ISHYAK (6503,1017)",
+      "Step 2: Speak with Hotan Stable merchant SALIHAP (153,5)",
+      "Step 3: Return to BAEKSONG"
+    ],
+    "rewards": [
+      "exp: 1,450,000",
+      "sxp: 9,000",
+      "gold: 140,000"
+    ],
+    "notes": [
+      "PS:He only gives 5 players quest one day"
+    ],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 76,
+    "name": "Sweeping Earth Ghost Warrior",
+    "level": 65,
+    "repeatCount": 3,
+    "giverNpcId": 590,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3669,
+      1973
+    ],
+    "prerequisiteQuestIds": [
+      74
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 1600 Earth Ghost Warrior or Earth Ghost Soldier"
+    ],
+    "rewards": [
+      "exp: 3,000,000",
+      "gold: 275,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 77,
+    "name": "Mamoje's Bet",
+    "level": 65,
+    "repeatCount": 7,
+    "giverNpcId": 269,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3797,
+      3799
+    ],
+    "prerequisiteQuestIds": [
+      68
+    ],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Dark Kara or Death Kara to gain 20 teeth"
+    ],
+    "rewards": [
+      "exp: 425,000",
+      "gold: 40,000",
+      "sxp: 12,500"
+    ],
+    "notes": [
+      "Note: Time limited. 2 hours per quest and need to be done in 4 days."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 78,
+    "name": "King of digging",
+    "level": 67,
+    "repeatCount": 5,
+    "giverNpcId": 244,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3670,
+      1974
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Blind Mole or Mole for 340 goi claws"
+    ],
+    "rewards": [
+      "exp: 3,550,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 79,
+    "name": "Second Bet (Soboi)",
+    "level": 68,
+    "repeatCount": 1,
+    "giverNpcId": 39,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3800,
+      3801
+    ],
+    "prerequisiteQuestIds": [
+      77
+    ],
+    "mutuallyExclusiveQuestIds": [
+      80
+    ],
+    "steps": [
+      "Defeat Demon Eye or Devil Eye to gain 300 eyes"
+    ],
+    "rewards": [
+      "exp: 3,400,000",
+      "sxp: 90,000"
+    ],
+    "notes": [
+      "Note: You can only choose one quest between Second Bet(Soboi) and Second Bet(Mamoje). I suggest you choose the one with exp reward."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 80,
+    "name": "Second Bet (Mamoje)",
+    "level": 68,
+    "repeatCount": 1,
+    "giverNpcId": 269,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3800,
+      3801
+    ],
+    "prerequisiteQuestIds": [
+      77
+    ],
+    "mutuallyExclusiveQuestIds": [
+      79
+    ],
+    "steps": [
+      "Defeat Demon Eye or Devil Eye to gain 300 eyes"
+    ],
+    "rewards": [
+      "gold: 925,000",
+      "sxp: 90,000"
+    ],
+    "notes": [
+      "Note: You can only choose one quest between Second Bet(Soboi) and Second Bet(Mamoje). I suggest you choose the one with exp reward."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 81,
+    "name": "Ghost of dazzlement",
+    "level": 69,
+    "repeatCount": 1,
+    "giverNpcId": 46,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3672,
+      1976
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Devil Ghost Nachal or Devil Mask Nachal for 1 Nachal antidote"
+    ],
+    "rewards": [
+      "exp: 3,750,000",
+      "item: advanced return scrolls X50"
+    ],
+    "notes": [
+      "PS:you need to get back to the npc that gave you this quest within 15 minutes after you get the quest item. No tele scroll or horse can be used , but you can use horse after you get out from dungeon."
+    ],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 82,
+    "name": "Paedo's request",
+    "level": 70,
+    "repeatCount": 3,
+    "giverNpcId": 642,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3671,
+      1975
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat Gold-Silver Yachal or Diamond Yachal for 250 pieces of diamond and 250 pieces of gold"
+    ],
+    "rewards": [
+      "exp: 4,250,000",
+      "gold: 375,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 83,
+    "name": "Collecting Buddhist scriptures",
+    "level": 70,
+    "repeatCount": 1,
+    "giverNpcId": 48,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Retrieve the 4 books of scriptures"
+    ],
+    "rewards": [
+      "exp: 4,750,000",
+      "sxp: 24,000",
+      "gold: 425,000"
+    ],
+    "notes": [],
+    "town": "Donwhang",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 84,
+    "name": "Last Bet (Soboi)",
+    "level": 71,
+    "repeatCount": 1,
+    "giverNpcId": 39,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3802,
+      3804
+    ],
+    "prerequisiteQuestIds": [
+      79
+    ],
+    "mutuallyExclusiveQuestIds": [
+      85
+    ],
+    "steps": [
+      "Defeat Niya Soldier or Niya Guard to gain 200 spears"
+    ],
+    "rewards": [
+      "exp: 4,000,000",
+      "sxp: 96,000"
+    ],
+    "notes": [
+      "Note: You can only choose one quest between Last Bet(Soboi) and Last Bet(Mamoje). I suggest you choose the one with exp reward."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 85,
+    "name": "Last Bet (Mamoje)",
+    "level": 71,
+    "repeatCount": 1,
+    "giverNpcId": 269,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3802,
+      3804
+    ],
+    "prerequisiteQuestIds": [
+      80
+    ],
+    "mutuallyExclusiveQuestIds": [
+      84
+    ],
+    "steps": [
+      "Defeat Niya Soldier or Niya Guard to gain 200 spears"
+    ],
+    "rewards": [
+      "gold: 900,000",
+      "sxp: 96,000"
+    ],
+    "notes": [
+      "Note: You can only choose one quest between Last Bet(Soboi) and Last Bet(Mamoje). I suggest you choose the one with exp reward."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 86,
+    "name": "Sweeping Niya Archers",
+    "level": 74,
+    "repeatCount": 3,
+    "giverNpcId": 612,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3805,
+      3803
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 1700 Niya Sniper or Niya Hunter"
+    ],
+    "rewards": [
+      "exp: 3,700,000",
+      "gold: 250,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 87,
+    "name": "Research on Ancient Niya Magic",
+    "level": 77,
+    "repeatCount": 3,
+    "giverNpcId": 522,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3806,
+      3808
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Niya Mage or Niya Shaman"
+    ],
+    "rewards": [
+      "exp: 4,275,000",
+      "gold: 350,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 88,
+    "name": "Lost Horseshoe",
+    "level": 79,
+    "repeatCount": 3,
+    "giverNpcId": 633,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3807,
+      3809
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Niya Royal Guard or Niya General"
+    ],
+    "rewards": [
+      "exp: 4,775,000",
+      "gold: 375,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"
+  },
+  {
+    "id": 89,
+    "name": "Noise Pollution",
+    "level": 50,
+    "repeatCount": 1,
+    "giverNpcId": 606,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2110
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Ujigis"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 18,000",
+      "gold: 76,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
+  },
+  {
+    "id": 90,
+    "name": "The Powerful Looking Accessory",
+    "level": 50,
+    "repeatCount": 1,
+    "giverNpcId": 606,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2110
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 30 Ujigi teeth"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 22,000",
+      "gold: 72,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
+  }
+]
