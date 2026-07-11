@@ -1,6 +1,6 @@
 # Silkroad Quest Helper
 
-A dark-only, static quest planner for Silkroad Online. Search 91 level 1–80 quests and 697 NPCs, focus NPCs on the xSROMap world map, display known monster habitats extracted from PK2 files for selected and planned quests, and keep an ordered plan in a browser cookie.
+A dark-only, static quest planner for Silkroad Online. Search 98 level 1–80 quests and 697 NPCs, focus NPCs on the xSROMap world map, display known monster habitats extracted from PK2 files for selected and planned quests, and keep an ordered plan in a browser cookie.
 
 **[Open the live Silkroad Quest Helper](https://steffencarlsen.github.io/Silkroad-quest-helper/)**
 
@@ -36,7 +36,7 @@ This validates all source relationships, runs behavior tests, type-checks the ap
 
 Normalized, checked-in data lives in `src/data/`. Refresh it with `npm run import:data`, review `src/data/mapping-audit.json`, and run `npm run validate:data` before accepting the change. The validator expects the pinned snapshots to contain 88 quests and 697 NPCs.
 
-The supplied quest article provides 88 quests. Three quests confirmed by in-game screenshots—“Ensuring Pedestrian Safety,” “Noise Pollution,” and “The Powerful Looking Accessory”—are included as supplemental records. Missing rewards elsewhere remain unknown rather than being invented.
+The supplied quest article provides 88 quests. Ten additional quests confirmed by in-game screenshots are included as supplemental records. Missing rewards elsewhere remain unknown rather than being invented.
 
 Monster overlays are client guide regions with representative guide pins, not exact server spawn locations. To refresh them, extract a compatible catalog from the PK2 files and import it:
 

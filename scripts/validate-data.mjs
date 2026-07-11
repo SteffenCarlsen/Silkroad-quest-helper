@@ -10,7 +10,7 @@ const [quests, npcs, audit, sources, habitatData] = await Promise.all([
   read("monster-habitats.json"),
 ]);
 
-assert.equal(quests.length, 91, "The dataset must contain 88 parsed and 3 supplemental quests");
+assert.equal(quests.length, 98, "The dataset must contain 88 parsed and 10 supplemental quests");
 assert.equal(npcs.length, 697, "The pinned xSROMap snapshot must contain 697 NPCs");
 assert.equal(audit.unmatchedGivers.length, 0, "Every quest giver must be reviewed and mapped");
 assert.equal(audit.unmatchedRelated.length, 0, "Every related NPC mention must be resolved or excluded as a non-NPC");
@@ -67,6 +67,22 @@ assert.equal(pedestrianSafety?.level, 49, "Ensuring Pedestrian Safety must be le
 assert.equal(pedestrianSafety?.giverNpcId, 318, "Ensuring Pedestrian Safety must be given by Merchant Associate Asaman");
 assert.deepEqual(pedestrianSafety?.targetMonsterIds, [1991], "Ensuring Pedestrian Safety must target Mujigi");
 assert.deepEqual(pedestrianSafety?.rewards, ["exp: 953,500", "sxp: 15,000", "gold: 79,000"], "Ensuring Pedestrian Safety must retain all screenshot rewards");
+for (const expected of [
+  ["Hunting the Giant Creature", 57, 252, 2117],
+  ["The Threat to Warriors", 54, 622, 2126],
+  ["The Curious Artisan", 55, 535, 2127],
+  ["Materials for the Cold Accessory", 54, 269, 2126],
+  ["Subjugating the Frenzied Creature", 56, 252, 2125],
+  ["Rumor of the Giant Spider", 58, 588, 1995],
+  ["The Protector of Karakoram", 55, 318, 2127],
+]) {
+  const [name, level, giverNpcId, monsterId] = expected;
+  const quest = quests.find((candidate) => candidate.name === name);
+  assert.equal(quest?.level, level, `${name} must retain its documented level`);
+  assert.equal(quest?.giverNpcId, giverNpcId, `${name} must map to its documented giver`);
+  assert.deepEqual(quest?.targetMonsterIds, [monsterId], `${name} must map to its documented monster`);
+  assert.equal(quest?.rewards.length, 3, `${name} must retain all screenshot rewards`);
+}
 
 const maximumPlan = `v1.${quests.map((quest) => quest.id).join(".")}`;
 assert.ok(maximumPlan.length < 3800, "A plan containing every quest must fit the supported cookie budget");

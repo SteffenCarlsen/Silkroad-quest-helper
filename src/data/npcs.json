@@ -4565,7 +4565,7 @@
     "id": 252,
     "name": "Hunter Associate Ahmok",
     "role": "Hunter Associate",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 328.88,
@@ -11277,7 +11277,7 @@
     "id": 622,
     "name": "Specialty Trader Sanmok",
     "role": "Specialty Trader",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 1515.55,

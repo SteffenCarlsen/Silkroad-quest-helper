@@ -7,7 +7,7 @@ const MAP_COMMIT = "52bfffef4467";
 const MAP_URL = `https://raw.githubusercontent.com/JellyBitz/xSROMap/${MAP_COMMIT}/assets/js/main.js`;
 const QUEST_API = "https://public-api.wordpress.com/rest/v1.1/sites/shinakuma.wordpress.com/posts/slug:questler-lvl-1-80";
 const QUEST_URL = "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/";
-const SUPPLEMENTAL_QUEST_URL = "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html";
+const SUPPLEMENTAL_QUEST_URL = "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html";
 const OUTPUT = new URL("../src/data/", import.meta.url);
 const overrides = JSON.parse(await readFile(new URL("./npc-overrides.json", import.meta.url), "utf8"));
 const habitatData = JSON.parse(await readFile(new URL("../src/data/monster-habitats.json", import.meta.url), "utf8"));
@@ -233,6 +233,13 @@ for (const quest of [
   { name: "Noise Pollution", level: 50, giver: "Soldier Pao", monster: "Ujigi", steps: ["Defeat 300 Ujigis"], rewards: ["exp: 953,500", "sxp: 18,000", "gold: 76,000"] },
   { name: "The Powerful Looking Accessory", level: 50, giver: "Soldier Pao", monster: "Ujigi", steps: ["Gather 30 Ujigi teeth"], rewards: ["exp: 953,500", "sxp: 22,000", "gold: 72,000"] },
   { name: "Ensuring Pedestrian Safety", level: 49, giver: "Merchant Associate Asaman", monster: "Mujigi", steps: ["Defeat 300 Mujigis"], rewards: ["exp: 953,500", "sxp: 15,000", "gold: 79,000"] },
+  { name: "Hunting the Giant Creature", level: 57, giver: "Hunter Associate Ahmok", monster: "Big Blue Spider", steps: ["Defeat 300 Big Blue Spiders"], rewards: ["exp: 2,148,980", "sxp: 20,000", "gold: 90,000"] },
+  { name: "The Threat to Warriors", level: 54, giver: "Specialty Trader Sanmok", monster: "Penon Fighter", steps: ["Defeat 300 Penon Fighters"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
+  { name: "The Curious Artisan", level: 55, giver: "Protector Trader Gonishya", monster: "Penon Warrior", steps: ["Gather 150 Broken Shield Pieces"], rewards: ["exp: 2,148,980", "sxp: 23,000", "gold: 87,000"] },
+  { name: "Materials for the Cold Accessory", level: 54, giver: "Jewel Lapidary Mamoje", monster: "Penon Fighter", steps: ["Gather 150 Broken Ice Pieces"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
+  { name: "Subjugating the Frenzied Creature", level: 56, giver: "Hunter Associate Ahmok", monster: "Planar", steps: ["Defeat 300 Planars"], rewards: ["exp: 2,148,980", "sxp: 23,000", "gold: 87,000"] },
+  { name: "Rumor of the Giant Spider", level: 58, giver: "Soldier Duyun", monster: "Big White Spider", steps: ["Defeat 300 Big White Spiders"], rewards: ["exp: 2,148,980", "sxp: 24,000", "gold: 86,000"] },
+  { name: "The Protector of Karakoram", level: 55, giver: "Merchant Associate Asaman", monster: "Penon Warrior", steps: ["Defeat 300 Penon Warriors"], rewards: ["exp: 2,148,980", "sxp: 22,000", "gold: 88,000"] },
 ]) {
   drafts.push({
     id: drafts.length + 1,
@@ -333,7 +340,7 @@ await Promise.all([
   writeFile(new URL("sources.json", OUTPUT), `${JSON.stringify({
     xSROMap: { url: MAP_URL, commit: MAP_COMMIT, sha256: hash(mapSource), license: "MIT" },
     questList: { url: QUEST_URL, apiUrl: QUEST_API, postId: questPost.ID, modified: questPost.modified, sha256: hash(questPost.content) },
-    supplementalQuests: { url: SUPPLEMENTAL_QUEST_URL, names: ["Ensuring Pedestrian Safety", "Noise Pollution", "The Powerful Looking Accessory"], evidence: "User-provided in-game screenshots; levels corroborated by linked quest list." },
+    supplementalQuests: { url: SUPPLEMENTAL_QUEST_URL, names: ["Noise Pollution", "The Powerful Looking Accessory", "Ensuring Pedestrian Safety", "Hunting the Giant Creature", "The Threat to Warriors", "The Curious Artisan", "Materials for the Cold Accessory", "Subjugating the Frenzied Creature", "Rumor of the Giant Spider", "The Protector of Karakoram"], evidence: "User-provided in-game screenshots; levels corroborated by linked quest list." },
   }, null, 2)}\n`),
 ]);
 

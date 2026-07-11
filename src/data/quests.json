@@ -2246,7 +2246,7 @@
     ],
     "notes": [],
     "town": "Hotan",
-    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   },
   {
     "id": 90,
@@ -2270,7 +2270,7 @@
     ],
     "notes": [],
     "town": "Hotan",
-    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   },
   {
     "id": 91,
@@ -2294,6 +2294,174 @@
     ],
     "notes": [],
     "town": "Hotan",
-    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 92,
+    "name": "Hunting the Giant Creature",
+    "level": 57,
+    "repeatCount": 1,
+    "giverNpcId": 252,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2117
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Big Blue Spiders"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 20,000",
+      "gold: 90,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 93,
+    "name": "The Threat to Warriors",
+    "level": 54,
+    "repeatCount": 1,
+    "giverNpcId": 622,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2126
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Penon Fighters"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 25,000",
+      "gold: 85,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 94,
+    "name": "The Curious Artisan",
+    "level": 55,
+    "repeatCount": 1,
+    "giverNpcId": 535,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2127
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 150 Broken Shield Pieces"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 23,000",
+      "gold: 87,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 95,
+    "name": "Materials for the Cold Accessory",
+    "level": 54,
+    "repeatCount": 1,
+    "giverNpcId": 269,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2126
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 150 Broken Ice Pieces"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 25,000",
+      "gold: 85,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 96,
+    "name": "Subjugating the Frenzied Creature",
+    "level": 56,
+    "repeatCount": 1,
+    "giverNpcId": 252,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2125
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Planars"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 23,000",
+      "gold: 87,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 97,
+    "name": "Rumor of the Giant Spider",
+    "level": 58,
+    "repeatCount": 1,
+    "giverNpcId": 588,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1995
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Big White Spiders"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 24,000",
+      "gold: 86,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 98,
+    "name": "The Protector of Karakoram",
+    "level": 55,
+    "repeatCount": 1,
+    "giverNpcId": 318,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2127
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Penon Warriors"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 22,000",
+      "gold: 88,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   }
 ]

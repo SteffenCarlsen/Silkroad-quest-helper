@@ -909,6 +909,76 @@
       "method": "name",
       "distance": null,
       "review": null
+    },
+    {
+      "questId": 92,
+      "quest": "Hunting the Giant Creature",
+      "mention": "Hunter Associate Ahmok",
+      "npcId": 252,
+      "npc": "Hunter Associate Ahmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 93,
+      "quest": "The Threat to Warriors",
+      "mention": "Specialty Trader Sanmok",
+      "npcId": 622,
+      "npc": "Specialty Trader Sanmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 94,
+      "quest": "The Curious Artisan",
+      "mention": "Protector Trader Gonishya",
+      "npcId": 535,
+      "npc": "Protector Trader Gonishya",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 95,
+      "quest": "Materials for the Cold Accessory",
+      "mention": "Jewel Lapidary Mamoje",
+      "npcId": 269,
+      "npc": "Jewel Lapidary Mamoje",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 96,
+      "quest": "Subjugating the Frenzied Creature",
+      "mention": "Hunter Associate Ahmok",
+      "npcId": 252,
+      "npc": "Hunter Associate Ahmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 97,
+      "quest": "Rumor of the Giant Spider",
+      "mention": "Soldier Duyun",
+      "npcId": 588,
+      "npc": "Soldier Duyun",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 98,
+      "quest": "The Protector of Karakoram",
+      "mention": "Merchant Associate Asaman",
+      "npcId": 318,
+      "npc": "Merchant Associate Asaman",
+      "method": "name",
+      "distance": null,
+      "review": null
     }
   ],
   "unmatchedGivers": [],
