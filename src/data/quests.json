@@ -2727,5 +2727,619 @@
     "notes": [],
     "town": "Hotan",
     "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 110,
+    "name": "The Troublemaker of Tarim Ferry",
+    "level": 43,
+    "repeatCount": 1,
+    "giverNpcId": 582,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2109
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Maongs"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 20,000",
+      "gold: 74,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 111,
+    "name": "Improving Your Defense",
+    "level": 44,
+    "repeatCount": 1,
+    "giverNpcId": 252,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1985
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 150 Monkey Leathers"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 15,000",
+      "gold: 79,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 112,
+    "name": "Nerve-wrecking First Match",
+    "level": 44,
+    "repeatCount": 1,
+    "giverNpcId": 612,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1985
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Small Bunwangs"
+    ],
+    "rewards": [],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 113,
+    "name": "The Revitalizing Poison Sting",
+    "level": 44,
+    "repeatCount": 1,
+    "giverNpcId": 522,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2109
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 30 Sharp Needles"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 18,000",
+      "gold: 76,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 114,
+    "name": "For the Peace of the Grassland Road",
+    "level": 45,
+    "repeatCount": 1,
+    "giverNpcId": 318,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1987
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Bunwangs"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 16,000",
+      "gold: 78,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 115,
+    "name": "The Captivating Red Mane",
+    "level": 45,
+    "repeatCount": 1,
+    "giverNpcId": 622,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1987
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 250 Red Manes"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 20,000",
+      "gold: 74,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 116,
+    "name": "Ultra Blood Devil's Crystal Gem",
+    "level": 46,
+    "repeatCount": 1,
+    "giverNpcId": 622,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2124
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 70 Devil Flower Crystals"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 14,000",
+      "gold: 80,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 117,
+    "name": "The Demonic Flower",
+    "level": 46,
+    "repeatCount": 1,
+    "giverNpcId": 600,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2124
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Ultra Blood Devils"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 21,000",
+      "gold: 73,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 118,
+    "name": "Special Wound Remedy",
+    "level": 47,
+    "repeatCount": 1,
+    "giverNpcId": 522,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1994
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 70 Spider Shells"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 15,000",
+      "gold: 79,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 119,
+    "name": "Healthy Invigorant",
+    "level": 48,
+    "repeatCount": 1,
+    "giverNpcId": 606,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1990
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 30 Stuffed Legs"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 20,000",
+      "gold: 74,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 120,
+    "name": "The Special Vein",
+    "level": 49,
+    "repeatCount": 1,
+    "giverNpcId": 535,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1991
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 70 Super Strong Tendons"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 15,000",
+      "gold: 79,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 121,
+    "name": "Nerve-wrecking Match 2",
+    "level": 52,
+    "repeatCount": 1,
+    "giverNpcId": 612,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2112
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Hashades"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 23,000",
+      "gold: 87,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 122,
+    "name": "Going Broke",
+    "level": 71,
+    "repeatCount": 1,
+    "giverNpcId": 621,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3802
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Niya Soldiers"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 80,000",
+      "gold: 350,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 123,
+    "name": "The Threat in the Desert",
+    "level": 73,
+    "repeatCount": 1,
+    "giverNpcId": 583,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3804
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Niya Guards"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 85,000",
+      "gold: 345,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 124,
+    "name": "Replenishing Arrowheads",
+    "level": 74,
+    "repeatCount": 1,
+    "giverNpcId": 601,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3805
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 150 Fire Arrow Tips"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 91,000",
+      "gold: 339,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 125,
+    "name": "The Blacksmith's Pride",
+    "level": 76,
+    "repeatCount": 1,
+    "giverNpcId": 39,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3803
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 30 Fire Bows"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 88,000",
+      "gold: 342,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 126,
+    "name": "Purifying the Energy of Earth",
+    "level": 77,
+    "repeatCount": 1,
+    "giverNpcId": 676,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3806
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Niya Mages"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 88,000",
+      "gold: 342,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 127,
+    "name": "The Rumor of Niya Shaman",
+    "level": 78,
+    "repeatCount": 1,
+    "giverNpcId": 40,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3808
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Niya Shamans"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 90,000",
+      "gold: 340,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 128,
+    "name": "The Secret of the Resurrection",
+    "level": 79,
+    "repeatCount": 1,
+    "giverNpcId": 39,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3807
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 70 Pieces of Curse"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 91,000",
+      "gold: 339,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 129,
+    "name": "The Water Drop of Magic",
+    "level": 80,
+    "repeatCount": 1,
+    "giverNpcId": 269,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      3809
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 30 Water Drops of Magic"
+    ],
+    "rewards": [
+      "exp: 14,494,000",
+      "sxp: 90,000",
+      "gold: 340,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 130,
+    "name": "Purification Seed",
+    "level": 1,
+    "repeatCount": 1,
+    "giverNpcId": 234,
+    "relatedNpcIds": [
+      235,
+      522,
+      523,
+      524,
+      525
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat monsters and gather Purification Seeds"
+    ],
+    "rewards": [
+      "skill points"
+    ],
+    "notes": [
+      "Available from any herbalist or potion merchant; any monster can drop the quest item."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 131,
+    "name": "Resuscitation Potion Quest",
+    "level": 20,
+    "repeatCount": null,
+    "giverNpcId": 234,
+    "relatedNpcIds": [
+      235,
+      522,
+      523,
+      524,
+      525
+    ],
+    "targetMonsterIds": [],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather Curst Hearts from any monster",
+      "Exchange every 10 Curst Hearts for one Resuscitation Potion"
+    ],
+    "rewards": [
+      "item: Resuscitation Potion per 10 Curst Hearts"
+    ],
+    "notes": [
+      "Repeatable without a fixed limit; available from any herbalist or potion merchant."
+    ],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 132,
+    "name": "Bandit Trade Market",
+    "level": 20,
+    "repeatCount": 1,
+    "giverNpcId": 623,
+    "relatedNpcIds": [
+      187
+    ],
+    "targetMonsterIds": [
+      1953
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Wear the trader flag and speak with Specialty Trader Seopok",
+      "Defeat 20 White Tigers",
+      "Deliver the item to Gisaeng Ahjin and return with confirmation"
+    ],
+    "rewards": [
+      "access: Bandit Stronghold specialty goods",
+      "item: 5 Arabian camels"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 133,
+    "name": "Black Robber Trade Market",
+    "level": 30,
+    "repeatCount": 1,
+    "giverNpcId": 616,
+    "relatedNpcIds": [
+      642
+    ],
+    "targetMonsterIds": [
+      1970
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Wear the trader flag and speak with Specialty Trader Hounah",
+      "Defeat 20 Hyeongcheons",
+      "Deliver the box to Storage-Keeper Paedo and return with confirmation"
+    ],
+    "rewards": [
+      "access: Black Robber Den specialty goods",
+      "item: 5 Bactrian camels"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 134,
+    "name": "Niya Remains Trade Market",
+    "level": 60,
+    "repeatCount": 1,
+    "giverNpcId": 621,
+    "relatedNpcIds": [
+      622
+    ],
+    "targetMonsterIds": [
+      3796
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Wear the trader flag and speak with Specialty Trader Payi",
+      "Defeat 20 Shakrams",
+      "Deliver the box to Specialty Trader Sanmok and return with confirmation"
+    ],
+    "rewards": [
+      "access: Niya Remains specialty goods",
+      "item: 5 Fire Bulls"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   }
 ]

@@ -1089,6 +1089,256 @@
       "method": "name",
       "distance": null,
       "review": null
+    },
+    {
+      "questId": 110,
+      "quest": "The Troublemaker of Tarim Ferry",
+      "mention": "Soldier Baoman",
+      "npcId": 582,
+      "npc": "Soldier Baoman",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 111,
+      "quest": "Improving Your Defense",
+      "mention": "Hunter Associate Ahmok",
+      "npcId": 252,
+      "npc": "Hunter Associate Ahmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 112,
+      "quest": "Nerve-wrecking First Match",
+      "mention": "Soldier Wulan",
+      "npcId": 612,
+      "npc": "Soldier Wulan",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 113,
+      "quest": "The Revitalizing Poison Sting",
+      "mention": "Potion Merchant Manina",
+      "npcId": 522,
+      "npc": "Potion Merchant Manina",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 114,
+      "quest": "For the Peace of the Grassland Road",
+      "mention": "Merchant Associate Asaman",
+      "npcId": 318,
+      "npc": "Merchant Associate Asaman",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 115,
+      "quest": "The Captivating Red Mane",
+      "mention": "Specialty Trader Sanmok",
+      "npcId": 622,
+      "npc": "Specialty Trader Sanmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 116,
+      "quest": "Ultra Blood Devil's Crystal Gem",
+      "mention": "Specialty Trader Sanmok",
+      "npcId": 622,
+      "npc": "Specialty Trader Sanmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 117,
+      "quest": "The Demonic Flower",
+      "mention": "Soldier Leihan",
+      "npcId": 600,
+      "npc": "Soldier Leihan",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 118,
+      "quest": "Special Wound Remedy",
+      "mention": "Potion Merchant Manina",
+      "npcId": 522,
+      "npc": "Potion Merchant Manina",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 119,
+      "quest": "Healthy Invigorant",
+      "mention": "Soldier Pao",
+      "npcId": 606,
+      "npc": "Soldier Pao",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 120,
+      "quest": "The Special Vein",
+      "mention": "Protector Trader Gonishya",
+      "npcId": 535,
+      "npc": "Protector Trader Gonishya",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 121,
+      "quest": "Nerve-wrecking Match 2",
+      "mention": "Soldier Wulan",
+      "npcId": 612,
+      "npc": "Soldier Wulan",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 122,
+      "quest": "Going Broke",
+      "mention": "Specialty Trader Payi",
+      "npcId": 621,
+      "npc": "Specialty Trader Payi",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 123,
+      "quest": "The Threat in the Desert",
+      "mention": "Soldier Batu",
+      "npcId": 583,
+      "npc": "Soldier Batu",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 124,
+      "quest": "Replenishing Arrowheads",
+      "mention": "Soldier Makhan",
+      "npcId": 601,
+      "npc": "Soldier Makhan",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 125,
+      "quest": "The Blacksmith's Pride",
+      "mention": "Blacksmith Soboi",
+      "npcId": 39,
+      "npc": "Blacksmith Soboi",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 126,
+      "quest": "Purifying the Energy of Earth",
+      "mention": "Tunnel Manager Asui",
+      "npcId": 676,
+      "npc": "Tunnel Manager Asui",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 127,
+      "quest": "The Rumor of Niya Shaman",
+      "mention": "Boat Ticket Seller Ahgon",
+      "npcId": 40,
+      "npc": "Boat Ticket Seller Ahgon",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 128,
+      "quest": "The Secret of the Resurrection",
+      "mention": "Blacksmith Soboi",
+      "npcId": 39,
+      "npc": "Blacksmith Soboi",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 129,
+      "quest": "The Water Drop of Magic",
+      "mention": "Jewel Lapidary Mamoje",
+      "npcId": 269,
+      "npc": "Jewel Lapidary Mamoje",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 130,
+      "quest": "Purification Seed",
+      "mention": "Herbalist Bori",
+      "npcId": 234,
+      "npc": "Herbalist Bori",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 131,
+      "quest": "Resuscitation Potion Quest",
+      "mention": "Herbalist Bori",
+      "npcId": 234,
+      "npc": "Herbalist Bori",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 132,
+      "quest": "Bandit Trade Market",
+      "mention": "Specialty Trader Seopok",
+      "npcId": 623,
+      "npc": "Specialty Trader Seopok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 133,
+      "quest": "Black Robber Trade Market",
+      "mention": "Specialty Trader Hounah",
+      "npcId": 616,
+      "npc": "Specialty Trader Hounah",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 134,
+      "quest": "Niya Remains Trade Market",
+      "mention": "Specialty Trader Payi",
+      "npcId": 621,
+      "npc": "Specialty Trader Payi",
+      "method": "name",
+      "distance": null,
+      "review": null
     }
   ],
   "unmatchedGivers": [],

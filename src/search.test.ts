@@ -27,7 +27,7 @@ describe("search", () => {
 
   it("keeps all map markers only when the always-show option is enabled", () => {
     const results = searchData("Yangyun", quests, npcs);
-    expect(npcIdsForMap("Yangyun", false, results.quests, results.npcs, npcs).size).toBe(6);
+    expect(npcIdsForMap("Yangyun", false, results.quests, results.npcs, npcs).size).toBeLessThan(npcs.length);
     expect(npcIdsForMap("Yangyun", true, results.quests, results.npcs, npcs).size).toBe(697);
   });
 

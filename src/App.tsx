@@ -28,7 +28,7 @@ function QuestDetails({ quest, planned, onAdd, onSelectNpc }: { quest: Quest; pl
       <h2 id="detail-title">{quest.name}</h2>
       <button className="text-button" onClick={() => onSelectNpc(giver.id)}>Given by {giver.name}</button>
       {quest.relatedNpcIds.length > 0 && <p>Related NPCs: {quest.relatedNpcIds.map((id, index) => <span key={id}>{index > 0 && ", "}<button className="inline-button" onClick={() => onSelectNpc(id)}>{npcById.get(id)?.name}</button></span>)}</p>}
-      <dl className="facts"><div><dt>Repeat</dt><dd>{quest.repeatCount}×</dd></div><div><dt>Quest ID</dt><dd>#{quest.id}</dd></div></dl>
+      <dl className="facts"><div><dt>Repeat</dt><dd>{quest.repeatCount === null ? "Unlimited" : `${quest.repeatCount}×`}</dd></div><div><dt>Quest ID</dt><dd>#{quest.id}</dd></div></dl>
       {quest.prerequisiteQuestIds.length > 0 && <p><strong>Requires:</strong> {quest.prerequisiteQuestIds.map((id) => questById.get(id)?.name).join(", ")}</p>}
       {quest.mutuallyExclusiveQuestIds.length > 0 && <p className="warning"><strong>Choose one:</strong> mutually exclusive with {quest.mutuallyExclusiveQuestIds.map((id) => questById.get(id)?.name).join(", ")}.</p>}
       {quest.targetMonsterIds.length > 0 && <><h3>Known habitat targets</h3><ul className="target-list">{quest.targetMonsterIds.map((id) => { const monster = monsterById.get(id); return monster && <li key={id}>{monster.name} <span>Lv. {monster.level}</span></li>; })}</ul><p className="habitat-note">Areas and pins come from PK2 client guide data, not exact server spawn points.</p></>}

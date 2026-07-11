@@ -18,7 +18,7 @@ export type Quest = {
   id: number;
   name: string;
   level: number;
-  repeatCount: number;
+  repeatCount: number | null;
   giverNpcId: number;
   relatedNpcIds: number[];
   targetMonsterIds: number[];

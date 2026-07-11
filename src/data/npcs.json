@@ -10533,7 +10533,7 @@
     "id": 582,
     "name": "Soldier Baoman",
     "role": "Soldier",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 1253.97,
@@ -11167,7 +11167,7 @@
     "id": 616,
     "name": "Specialty Trader Hounah",
     "role": "Specialty Trader",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 1132.42,
@@ -11259,7 +11259,7 @@
     "id": 621,
     "name": "Specialty Trader Payi",
     "role": "Specialty Trader",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 131.41,
@@ -11295,7 +11295,7 @@
     "id": 623,
     "name": "Specialty Trader Seopok",
     "role": "Specialty Trader",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 411.03,
@@ -12262,7 +12262,7 @@
     "id": 676,
     "name": "Tunnel Manager Asui",
     "role": "Tunnel Manager",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 158.16,

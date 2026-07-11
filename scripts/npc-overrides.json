@@ -11,5 +11,6 @@
   "hyeon": { "npcId": 48, "reason": "Buddhist Priest Hyeon is the closest same-name NPC, about 5 game units from the source position." },
   "manina": { "npcId": 522, "reason": "Potion Merchant Manina is about 2 game units from the source position; malformed source HTML joined monster names to the giver." },
   "salihap": { "npcId": 633, "reason": "Stable-Keeper Salihap is the same named NPC; malformed source HTML joined monster names to the giver and its coordinate differs from the newer map." },
-  "leeguk": { "npcId": 321, "reason": "Source spelling of Merchant Associate Leegeuk, referenced without coordinates in a related step." }
+  "leeguk": { "npcId": 321, "reason": "Source spelling of Merchant Associate Leegeuk, referenced without coordinates in a related step." },
+  "gisaeng ahjin": { "npcId": 187, "reason": "Jangan Gisaeng Ahjin receives the Bandit Trade Market delivery; the map also contains a later-region duplicate." }
 }

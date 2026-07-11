@@ -10,7 +10,7 @@ const [quests, npcs, audit, sources, habitatData] = await Promise.all([
   read("monster-habitats.json"),
 ]);
 
-assert.equal(quests.length, 109, "The dataset must contain 88 parsed and 21 supplemental quests");
+assert.equal(quests.length, 134, "The dataset must contain 88 parsed and 46 supplemental quests");
 assert.equal(npcs.length, 697, "The pinned xSROMap snapshot must contain 697 NPCs");
 assert.equal(audit.unmatchedGivers.length, 0, "Every quest giver must be reviewed and mapped");
 assert.equal(audit.unmatchedRelated.length, 0, "Every related NPC mention must be resolved or excluded as a non-NPC");
@@ -91,6 +91,44 @@ for (const expected of [
   assert.deepEqual(quest?.targetMonsterIds, [monsterId], `${name} must map to its documented monster`);
   assert.equal(quest?.rewards.length, 3, `${name} must retain all screenshot rewards`);
 }
+for (const expected of [
+  ["The Troublemaker of Tarim Ferry", 43, 582, [2109]],
+  ["Improving Your Defense", 44, 252, [1985]],
+  ["Nerve-wrecking First Match", 44, 612, [1985]],
+  ["The Revitalizing Poison Sting", 44, 522, [2109]],
+  ["For the Peace of the Grassland Road", 45, 318, [1987]],
+  ["The Captivating Red Mane", 45, 622, [1987]],
+  ["Ultra Blood Devil's Crystal Gem", 46, 622, [2124]],
+  ["The Demonic Flower", 46, 600, [2124]],
+  ["Special Wound Remedy", 47, 522, [1994]],
+  ["Healthy Invigorant", 48, 606, [1990]],
+  ["The Special Vein", 49, 535, [1991]],
+  ["Nerve-wrecking Match 2", 52, 612, [2112]],
+  ["Going Broke", 71, 621, [3802]],
+  ["The Threat in the Desert", 73, 583, [3804]],
+  ["Replenishing Arrowheads", 74, 601, [3805]],
+  ["The Blacksmith's Pride", 76, 39, [3803]],
+  ["Purifying the Energy of Earth", 77, 676, [3806]],
+  ["The Rumor of Niya Shaman", 78, 40, [3808]],
+  ["The Secret of the Resurrection", 79, 39, [3807]],
+  ["The Water Drop of Magic", 80, 269, [3809]],
+  ["Bandit Trade Market", 20, 623, [1953]],
+  ["Black Robber Trade Market", 30, 616, [1970]],
+  ["Niya Remains Trade Market", 60, 621, [3796]],
+]) {
+  const [name, level, giverNpcId, monsterIds] = expected;
+  const quest = quests.find((candidate) => candidate.name === name);
+  assert.equal(quest?.level, level, `${name} must retain its documented level`);
+  assert.equal(quest?.giverNpcId, giverNpcId, `${name} must map to its documented giver`);
+  assert.deepEqual(quest?.targetMonsterIds, monsterIds, `${name} must map to its documented monsters`);
+}
+for (const name of ["Purification Seed", "Resuscitation Potion Quest"]) {
+  const quest = quests.find((candidate) => candidate.name === name);
+  assert.equal(quest?.giverNpcId, 234, `${name} must use a stable primary herbalist`);
+  assert.equal(quest?.relatedNpcIds.length, 5, `${name} must remain searchable through every potion NPC`);
+  assert.deepEqual(quest?.targetMonsterIds, [], `${name} must not invent an exact monster habitat`);
+}
+assert.equal(quests.find((quest) => quest.name === "Resuscitation Potion Quest")?.repeatCount, null, "Resuscitation Potion Quest must remain unlimited");
 const maninasRequest = quests.find((quest) => quest.name === "Manina's request");
 assert.equal(maninasRequest?.level, 52, "Manina's request must be level 52");
 assert.equal(maninasRequest?.repeatCount, 3, "Manina's request must be available three times");
