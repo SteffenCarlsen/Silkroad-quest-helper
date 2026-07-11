@@ -979,6 +979,86 @@
       "method": "name",
       "distance": null,
       "review": null
+    },
+    {
+      "questId": 99,
+      "quest": "The Frightening Ice Spirit",
+      "mention": "Soldier Leihan",
+      "npcId": 600,
+      "npc": "Soldier Leihan",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 100,
+      "quest": "The Accursed Morning Alarm",
+      "mention": "Specialty Trader Sanmok",
+      "npcId": 622,
+      "npc": "Specialty Trader Sanmok",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 101,
+      "quest": "The Mana Crystal of Ice Magic",
+      "mention": "Protector Trader Gonishya",
+      "npcId": 535,
+      "npc": "Protector Trader Gonishya",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 102,
+      "quest": "Turtle Invigorant",
+      "mention": "Boat Ticket Seller Ahgon",
+      "npcId": 40,
+      "npc": "Boat Ticket Seller Ahgon",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 103,
+      "quest": "Very Useful Cooking Ingredient",
+      "mention": "Potion Merchant Manina",
+      "npcId": 522,
+      "npc": "Potion Merchant Manina",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 104,
+      "quest": "The Endless Winter Nightmare",
+      "mention": "Soldier Tuolan",
+      "npcId": 610,
+      "npc": "Soldier Tuolan",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 105,
+      "quest": "Exterminating the Spiders",
+      "mention": "Soldier Pao",
+      "npcId": 606,
+      "npc": "Soldier Pao",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 106,
+      "quest": "The Ceaseless Terror",
+      "mention": "Storage-Keeper Auisan",
+      "npcId": 640,
+      "npc": "Storage-Keeper Auisan",
+      "method": "name",
+      "distance": null,
+      "review": null
     }
   ],
   "unmatchedGivers": [],

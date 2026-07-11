@@ -2463,5 +2463,197 @@
     "notes": [],
     "town": "Hotan",
     "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 99,
+    "name": "The Frightening Ice Spirit",
+    "level": 57,
+    "repeatCount": 1,
+    "giverNpcId": 600,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2000
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Sonas"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 25,000",
+      "gold: 83,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 100,
+    "name": "The Accursed Morning Alarm",
+    "level": 56,
+    "repeatCount": 1,
+    "giverNpcId": 622,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2125
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 250 Gory Voice Cords"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 22,000",
+      "gold: 88,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 101,
+    "name": "The Mana Crystal of Ice Magic",
+    "level": 57,
+    "repeatCount": 1,
+    "giverNpcId": 535,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2000
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 30 Sona's Magic Globes"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 24,000",
+      "gold: 86,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 102,
+    "name": "Turtle Invigorant",
+    "level": 57,
+    "repeatCount": 1,
+    "giverNpcId": 40,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2117
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 150 Big Blue Spider Eggs"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 20,000",
+      "gold: 90,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 103,
+    "name": "Very Useful Cooking Ingredient",
+    "level": 58,
+    "repeatCount": 1,
+    "giverNpcId": 522,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1995
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 70 Big White Spider Legs"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 25,000",
+      "gold: 85,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 104,
+    "name": "The Endless Winter Nightmare",
+    "level": 51,
+    "repeatCount": 1,
+    "giverNpcId": 610,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2111
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Ishades"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 25,000",
+      "gold: 85,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 105,
+    "name": "Exterminating the Spiders",
+    "level": 52,
+    "repeatCount": 1,
+    "giverNpcId": 606,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2113
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Blue Spiders"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 25,000",
+      "gold: 85,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 106,
+    "name": "The Ceaseless Terror",
+    "level": 53,
+    "repeatCount": 1,
+    "giverNpcId": 640,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2114
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 White Spiders"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 23,000",
+      "gold: 87,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   }
 ]

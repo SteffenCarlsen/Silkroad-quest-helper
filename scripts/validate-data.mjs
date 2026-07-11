@@ -10,7 +10,7 @@ const [quests, npcs, audit, sources, habitatData] = await Promise.all([
   read("monster-habitats.json"),
 ]);
 
-assert.equal(quests.length, 98, "The dataset must contain 88 parsed and 10 supplemental quests");
+assert.equal(quests.length, 106, "The dataset must contain 88 parsed and 18 supplemental quests");
 assert.equal(npcs.length, 697, "The pinned xSROMap snapshot must contain 697 NPCs");
 assert.equal(audit.unmatchedGivers.length, 0, "Every quest giver must be reviewed and mapped");
 assert.equal(audit.unmatchedRelated.length, 0, "Every related NPC mention must be resolved or excluded as a non-NPC");
@@ -75,6 +75,14 @@ for (const expected of [
   ["Subjugating the Frenzied Creature", 56, 252, 2125],
   ["Rumor of the Giant Spider", 58, 588, 1995],
   ["The Protector of Karakoram", 55, 318, 2127],
+  ["The Frightening Ice Spirit", 57, 600, 2000],
+  ["The Accursed Morning Alarm", 56, 622, 2125],
+  ["The Mana Crystal of Ice Magic", 57, 535, 2000],
+  ["Turtle Invigorant", 57, 40, 2117],
+  ["Very Useful Cooking Ingredient", 58, 522, 1995],
+  ["The Endless Winter Nightmare", 51, 610, 2111],
+  ["Exterminating the Spiders", 52, 606, 2113],
+  ["The Ceaseless Terror", 53, 640, 2114],
 ]) {
   const [name, level, giverNpcId, monsterId] = expected;
   const quest = quests.find((candidate) => candidate.name === name);

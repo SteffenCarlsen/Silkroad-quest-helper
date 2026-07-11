@@ -714,7 +714,7 @@
     "id": 40,
     "name": "Boat Ticket Seller Ahgon",
     "role": "Boat Ticket Seller",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 950.03998,
@@ -10869,7 +10869,7 @@
     "id": 600,
     "name": "Soldier Leihan",
     "role": "Soldier",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 1190.54,
@@ -11055,7 +11055,7 @@
     "id": 610,
     "name": "Soldier Tuolan",
     "role": "Soldier",
-    "town": null,
+    "town": "Hotan",
     "aliases": [],
     "position": {
       "x": 1091.5601,

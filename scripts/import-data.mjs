@@ -229,7 +229,7 @@ for (const row of questRows) {
   });
 }
 
-for (const quest of [
+const supplementalQuests = [
   { name: "Noise Pollution", level: 50, giver: "Soldier Pao", monster: "Ujigi", steps: ["Defeat 300 Ujigis"], rewards: ["exp: 953,500", "sxp: 18,000", "gold: 76,000"] },
   { name: "The Powerful Looking Accessory", level: 50, giver: "Soldier Pao", monster: "Ujigi", steps: ["Gather 30 Ujigi teeth"], rewards: ["exp: 953,500", "sxp: 22,000", "gold: 72,000"] },
   { name: "Ensuring Pedestrian Safety", level: 49, giver: "Merchant Associate Asaman", monster: "Mujigi", steps: ["Defeat 300 Mujigis"], rewards: ["exp: 953,500", "sxp: 15,000", "gold: 79,000"] },
@@ -240,7 +240,17 @@ for (const quest of [
   { name: "Subjugating the Frenzied Creature", level: 56, giver: "Hunter Associate Ahmok", monster: "Planar", steps: ["Defeat 300 Planars"], rewards: ["exp: 2,148,980", "sxp: 23,000", "gold: 87,000"] },
   { name: "Rumor of the Giant Spider", level: 58, giver: "Soldier Duyun", monster: "Big White Spider", steps: ["Defeat 300 Big White Spiders"], rewards: ["exp: 2,148,980", "sxp: 24,000", "gold: 86,000"] },
   { name: "The Protector of Karakoram", level: 55, giver: "Merchant Associate Asaman", monster: "Penon Warrior", steps: ["Defeat 300 Penon Warriors"], rewards: ["exp: 2,148,980", "sxp: 22,000", "gold: 88,000"] },
-]) {
+  { name: "The Frightening Ice Spirit", level: 57, giver: "Soldier Leihan", monster: "Sona", steps: ["Defeat 300 Sonas"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 83,000"] },
+  { name: "The Accursed Morning Alarm", level: 56, giver: "Specialty Trader Sanmok", monster: "Planar", steps: ["Gather 250 Gory Voice Cords"], rewards: ["exp: 2,148,980", "sxp: 22,000", "gold: 88,000"] },
+  { name: "The Mana Crystal of Ice Magic", level: 57, giver: "Protector Trader Gonishya", monster: "Sona", steps: ["Gather 30 Sona's Magic Globes"], rewards: ["exp: 2,148,980", "sxp: 24,000", "gold: 86,000"] },
+  { name: "Turtle Invigorant", level: 57, giver: "Boat Ticket Seller Ahgon", monster: "Big Blue Spider", steps: ["Gather 150 Big Blue Spider Eggs"], rewards: ["exp: 2,148,980", "sxp: 20,000", "gold: 90,000"] },
+  { name: "Very Useful Cooking Ingredient", level: 58, giver: "Potion Merchant Manina", monster: "Big White Spider", steps: ["Gather 70 Big White Spider Legs"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
+  { name: "The Endless Winter Nightmare", level: 51, giver: "Soldier Tuolan", monster: "Ishade", steps: ["Defeat 300 Ishades"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
+  { name: "Exterminating the Spiders", level: 52, giver: "Soldier Pao", monster: "Blue-face Spider", steps: ["Defeat 300 Blue Spiders"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
+  { name: "The Ceaseless Terror", level: 53, giver: "Storage-Keeper Auisan", monster: "White-face spider", steps: ["Defeat 300 White Spiders"], rewards: ["exp: 2,148,980", "sxp: 23,000", "gold: 87,000"] },
+];
+
+for (const quest of supplementalQuests) {
   drafts.push({
     id: drafts.length + 1,
     name: quest.name,
@@ -340,7 +350,7 @@ await Promise.all([
   writeFile(new URL("sources.json", OUTPUT), `${JSON.stringify({
     xSROMap: { url: MAP_URL, commit: MAP_COMMIT, sha256: hash(mapSource), license: "MIT" },
     questList: { url: QUEST_URL, apiUrl: QUEST_API, postId: questPost.ID, modified: questPost.modified, sha256: hash(questPost.content) },
-    supplementalQuests: { url: SUPPLEMENTAL_QUEST_URL, names: ["Noise Pollution", "The Powerful Looking Accessory", "Ensuring Pedestrian Safety", "Hunting the Giant Creature", "The Threat to Warriors", "The Curious Artisan", "Materials for the Cold Accessory", "Subjugating the Frenzied Creature", "Rumor of the Giant Spider", "The Protector of Karakoram"], evidence: "User-provided in-game screenshots; levels corroborated by linked quest list." },
+    supplementalQuests: { url: SUPPLEMENTAL_QUEST_URL, names: supplementalQuests.map((quest) => quest.name), evidence: "User-provided in-game screenshots; levels corroborated by linked quest list." },
   }, null, 2)}\n`),
 ]);
 
