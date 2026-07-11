@@ -248,6 +248,7 @@ const supplementalQuests = [
   { name: "The Endless Winter Nightmare", level: 51, giver: "Soldier Tuolan", monster: "Ishade", steps: ["Defeat 300 Ishades"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
   { name: "Exterminating the Spiders", level: 52, giver: "Soldier Pao", monster: "Blue-face Spider", steps: ["Defeat 300 Blue Spiders"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
   { name: "The Ceaseless Terror", level: 53, giver: "Storage-Keeper Auisan", monster: "White-face spider", steps: ["Defeat 300 White Spiders"], rewards: ["exp: 2,148,980", "sxp: 23,000", "gold: 87,000"] },
+  { name: "Manina's request", level: 52, repeatCount: 3, giver: "Potion Merchant Manina", monsters: ["White-face spider", "Blue-face Spider"], steps: ["Gather 100 White-Face Spider webs"], rewards: ["exp: 1,650,000", "gold: 100,000"] },
 ];
 
 for (const quest of supplementalQuests) {
@@ -255,7 +256,7 @@ for (const quest of supplementalQuests) {
     id: drafts.length + 1,
     name: quest.name,
     level: quest.level,
-    repeatCount: 1,
+    repeatCount: quest.repeatCount ?? 1,
     town: "Hotan",
     description: quest.steps[0],
     steps: quest.steps,
@@ -263,7 +264,7 @@ for (const quest of supplementalQuests) {
     notes: [],
     mentions: [parseNpcMention(quest.giver)],
     prerequisiteNames: [],
-    monsterNames: [quest.monster],
+    monsterNames: quest.monsters ?? [quest.monster],
     sourceUrl: SUPPLEMENTAL_QUEST_URL,
   });
 }

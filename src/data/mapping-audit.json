@@ -1059,6 +1059,16 @@
       "method": "name",
       "distance": null,
       "review": null
+    },
+    {
+      "questId": 107,
+      "quest": "Manina's request",
+      "mention": "Potion Merchant Manina",
+      "npcId": 522,
+      "npc": "Potion Merchant Manina",
+      "method": "name",
+      "distance": null,
+      "review": null
     }
   ],
   "unmatchedGivers": [],

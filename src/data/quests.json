@@ -2655,5 +2655,29 @@
     "notes": [],
     "town": "Hotan",
     "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 107,
+    "name": "Manina's request",
+    "level": 52,
+    "repeatCount": 3,
+    "giverNpcId": 522,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2114,
+      2113
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Gather 100 White-Face Spider webs"
+    ],
+    "rewards": [
+      "exp: 1,650,000",
+      "gold: 100,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   }
 ]
