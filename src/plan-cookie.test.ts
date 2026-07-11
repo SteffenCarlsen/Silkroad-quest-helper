@@ -1,15 +1,16 @@
 import { describe, expect, it } from "vitest";
-import { parsePlan, planCookiePath, serializePlan } from "./plan-cookie";
+import { parsePlanData, planCookiePath, serializePlanData } from "./plan-cookie";
 
 describe("plan cookie format", () => {
-  it("round-trips an ordered, duplicate-free plan", () => {
-    expect(parsePlan(serializePlan([12, 4, 12, 9]))).toEqual([12, 4, 9]);
+  it("round-trips duplicate-free plan and completion data", () => {
+    const data = { planIds: [12, 4, 12, 9], completedIds: [4, 7, 4] };
+    expect(parsePlanData(serializePlanData(data))).toEqual({ planIds: [12, 4, 9], completedIds: [4, 7] });
   });
 
-  it("ignores malformed, unsupported, and unsafe IDs", () => {
-    expect(parsePlan("v2.1.2")).toEqual([]);
-    expect(parsePlan("v1.1.nope.-2.3")).toEqual([1, 3]);
-    expect(parsePlan("%E0%A4%A")).toEqual([]);
+  it("reads legacy plans and ignores malformed data", () => {
+    expect(parsePlanData("v1.1.nope.-2.3")).toEqual({ planIds: [1, 3], completedIds: [] });
+    expect(parsePlanData("v3.1.2")).toEqual({ planIds: [], completedIds: [] });
+    expect(parsePlanData("%E0%A4%A")).toEqual({ planIds: [], completedIds: [] });
   });
 
   it("scopes the cookie to either a Pages project or root site", () => {

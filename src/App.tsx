@@ -4,7 +4,8 @@ import monsterHabitatData from "./data/monster-habitats.json";
 import questData from "./data/quests.json";
 import sourceData from "./data/sources.json";
 import QuestMap from "./QuestMap";
-import { clearPlanCookie, readPlanCookie, writePlanCookie } from "./plan-cookie";
+import { clearPlanData, readPlanData, writePlanData } from "./plan-cookie";
+import { calculateRewards } from "./reward-calculator";
 import { npcIdsForMap, npcIdsForResults, questsForLevelRange, searchData } from "./search";
 import type { MonsterHabitat, Npc, Quest, Selection } from "./types";
 
@@ -14,6 +15,7 @@ const monsters = monsterHabitatData.monsters as MonsterHabitat[];
 const npcById = new Map(npcs.map((npc) => [npc.id, npc]));
 const questById = new Map(quests.map((quest) => [quest.id, quest]));
 const monsterById = new Map(monsters.map((monster) => [monster.id, monster]));
+const numberFormat = new Intl.NumberFormat("en-US");
 
 function RewardList({ quest }: { quest: Quest }) {
   if (quest.rewards.length === 0) return <p className="unknown">Rewards unknown in the supplied source.</p>;
@@ -42,9 +44,9 @@ function QuestDetails({ quest, planned, onAdd, onSelectNpc }: { quest: Quest; pl
   );
 }
 
-function NpcDetails({ npc, onSelectQuest }: { npc: Npc; onSelectQuest: (id: number) => void }) {
-  const given = quests.filter((quest) => quest.giverNpcId === npc.id);
-  const related = quests.filter((quest) => quest.relatedNpcIds.includes(npc.id));
+function NpcDetails({ npc, visibleQuests, onSelectQuest }: { npc: Npc; visibleQuests: Quest[]; onSelectQuest: (id: number) => void }) {
+  const given = visibleQuests.filter((quest) => quest.giverNpcId === npc.id);
+  const related = visibleQuests.filter((quest) => quest.relatedNpcIds.includes(npc.id));
   return (
     <article className="details" aria-labelledby="detail-title">
       <div className="eyebrow">{npc.town ?? "World NPC"}</div>
@@ -59,23 +61,35 @@ function NpcDetails({ npc, onSelectQuest }: { npc: Npc; onSelectQuest: (id: numb
   );
 }
 
+function RewardCalculator({ plan }: { plan: Quest[] }) {
+  const totals = calculateRewards(plan);
+  return <section className="reward-summary" aria-labelledby="reward-summary-title"><h3 id="reward-summary-title">Plan rewards</h3><small>One completion per planned quest</small><dl><div><dt>EXP</dt><dd>{numberFormat.format(totals.exp)}</dd></div><div><dt>Skill EXP</dt><dd>{numberFormat.format(totals.sxp)}</dd></div><div><dt>Gold</dt><dd>{numberFormat.format(totals.gold)}</dd></div><div><dt>Inventory</dt><dd>+{numberFormat.format(totals.inventorySlots)} slots</dd></div></dl>{totals.items.length > 0 && <><h4>Items and unlocks</h4><ul>{totals.items.map((item, index) => <li key={`${item}-${index}`}>{item}</li>)}</ul></>}</section>;
+}
+
 export default function App() {
   const [query, setQuery] = useState("");
   const [currentLevel, setCurrentLevel] = useState("");
   const [showAllNpcs, setShowAllNpcs] = useState(false);
+  const [showCompletedQuests, setShowCompletedQuests] = useState(false);
   const [showMonsterAreas, setShowMonsterAreas] = useState(true);
   const [selection, setSelection] = useState<Selection>(null);
-  const [planIds, setPlanIds] = useState(() => readPlanCookie().filter((id) => questById.has(id)));
+  const [planData, setPlanData] = useState(() => {
+    const data = readPlanData();
+    return { planIds: data.planIds.filter((id) => questById.has(id)), completedIds: data.completedIds.filter((id) => questById.has(id)) };
+  });
+  const { planIds, completedIds } = planData;
   const [message, setMessage] = useState("");
   const parsedLevel = Number(currentLevel);
   const level = currentLevel !== "" && Number.isInteger(parsedLevel) && parsedLevel >= 1 && parsedLevel <= 140 ? parsedLevel : null;
   const levelInvalid = currentLevel !== "" && level === null;
   const levelMinimum = level === null ? null : Math.max(1, level - 5);
   const levelMaximum = level === null ? null : level + 10;
+  const completedQuestIds = useMemo(() => new Set(completedIds), [completedIds]);
+  const searchableQuests = useMemo(() => showCompletedQuests ? quests : quests.filter((quest) => !completedQuestIds.has(quest.id)), [completedQuestIds, showCompletedQuests]);
   const results = useMemo(() => {
-    const searched = searchData(query, quests, npcs, monsters);
+    const searched = searchData(query, searchableQuests, npcs, monsters);
     return { ...searched, quests: questsForLevelRange(searched.quests, level) };
-  }, [level, query]);
+  }, [level, query, searchableQuests]);
   const selectedQuest = selection?.type === "quest" ? questById.get(selection.id) ?? null : null;
   const selectedNpc = selection?.type === "npc" ? npcById.get(selection.id) ?? null : null;
   const matchedNpcIds = useMemo(() => query.trim() ? npcIdsForResults(results.quests, results.npcs) : new Set<number>(), [query, results]);
@@ -93,15 +107,18 @@ export default function App() {
   const visibleMonsterIds = useMemo(() => new Set([...plan.flatMap((quest) => quest.targetMonsterIds), ...selectedMonsterIds]), [plan, selectedMonsterIds]);
   const visibleMonsters = useMemo(() => monsters.filter((monster) => visibleMonsterIds.has(monster.id)), [visibleMonsterIds]);
 
-  const savePlan = (ids: number[], announcement: string) => {
+  const saveData = (nextPlanIds: number[], nextCompletedIds: number[], announcement: string) => {
     try {
-      writePlanCookie(ids);
-      setPlanIds(ids);
+      const data = { planIds: nextPlanIds, completedIds: nextCompletedIds };
+      writePlanData(data);
+      setPlanData(data);
       setMessage(announcement);
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "The plan could not be saved.");
     }
   };
+  const savePlan = (ids: number[], announcement: string) => saveData(ids, completedIds, announcement);
+  const setCompleted = (quest: Quest, completed: boolean) => saveData(planIds, completed ? [...completedIds, quest.id] : completedIds.filter((id) => id !== quest.id), `${quest.name} marked ${completed ? "completed" : "incomplete"}.`);
 
   const selectQuest = (id: number) => setSelection({ type: "quest", id });
   const selectNpc = (id: number) => setSelection({ type: "npc", id });
@@ -120,11 +137,12 @@ export default function App() {
           <div className="level-filter"><label htmlFor="current-level">Current level</label><input id="current-level" type="number" min="1" max="140" value={currentLevel} onChange={(event) => setCurrentLevel(event.target.value)} placeholder="Any" aria-describedby="level-range" />{level !== null && <small id="level-range">Showing levels {levelMinimum}–{levelMaximum}</small>}{levelInvalid && <small id="level-range" className="input-error">Enter a level from 1 to 140.</small>}</div>
           <p className="result-summary" aria-live="polite">{results.quests.length} quests · {results.npcs.length} NPCs</p>
           <label className="map-toggle"><input type="checkbox" checked={showAllNpcs} onChange={(event) => setShowAllNpcs(event.target.checked)} /><span>Keep all NPCs visible while searching</span></label>
+          <label className="map-toggle completed-filter"><input type="checkbox" checked={showCompletedQuests} onChange={(event) => setShowCompletedQuests(event.target.checked)} /><span>Display completed quests</span></label>
 
           {(selectedQuest || selectedNpc) && <div className="selection-card">
             <button className="close-button" aria-label="Close details" onClick={() => setSelection(null)}>×</button>
             {selectedQuest && <QuestDetails quest={selectedQuest} planned={planIds.includes(selectedQuest.id)} onAdd={() => savePlan([...planIds, selectedQuest.id], `${selectedQuest.name} added to your plan.`)} onSelectNpc={selectNpc} />}
-            {selectedNpc && <NpcDetails npc={selectedNpc} onSelectQuest={selectQuest} />}
+            {selectedNpc && <NpcDetails npc={selectedNpc} visibleQuests={searchableQuests} onSelectQuest={selectQuest} />}
           </div>}
 
           <div className="result-groups">
@@ -139,8 +157,9 @@ export default function App() {
         <aside className="panel plan-panel" aria-labelledby="plan-title">
           <div className="panel-heading"><div><span className="eyebrow">Saved in this browser</span><h2 id="plan-title">Quest plan</h2></div><span className="count-badge">{plan.length}</span></div>
           <label className="map-toggle plan-map-toggle"><input type="checkbox" checked={showMonsterAreas} onChange={(event) => setShowMonsterAreas(event.target.checked)} /><span>Show monster habitat areas</span></label>
-          {plan.length === 0 ? <div className="empty-plan"><span aria-hidden="true">◇</span><p>Your plan is empty.</p><small>Open a quest and choose “Add to plan”.</small></div> : <ol className="plan-list">{plan.map((quest) => <li key={quest.id}><button className="plan-title" onClick={() => selectQuest(quest.id)}><span>Lv. {quest.level}</span>{quest.name}</button><RewardList quest={quest} /><button className="remove-button" onClick={() => savePlan(planIds.filter((id) => id !== quest.id), `${quest.name} removed from your plan.`)}>Remove</button></li>)}</ol>}
-          {plan.length > 0 && <button className="clear-button" onClick={() => { if (window.confirm("Clear every quest from your plan?")) { clearPlanCookie(); setPlanIds([]); setMessage("Quest plan cleared."); } }}>Clear plan</button>}
+          {plan.length > 0 && <RewardCalculator plan={plan} />}
+          {plan.length === 0 ? <div className="empty-plan"><span aria-hidden="true">◇</span><p>Your plan is empty.</p><small>Open a quest and choose “Add to plan”.</small></div> : <ol className="plan-list">{plan.map((quest) => { const completed = completedQuestIds.has(quest.id); return <li key={quest.id} className={completed ? "completed" : ""}><label className="complete-toggle"><input type="checkbox" checked={completed} onChange={(event) => setCompleted(quest, event.target.checked)} /><span>Completed</span></label><button className="plan-title" onClick={() => selectQuest(quest.id)}><span>Lv. {quest.level}</span>{quest.name}</button><RewardList quest={quest} /><button className="remove-button" onClick={() => savePlan(planIds.filter((id) => id !== quest.id), `${quest.name} removed from your plan.`)}>Remove</button></li>; })}</ol>}
+          {(plan.length > 0 || completedIds.length > 0) && <button className="clear-button" onClick={() => { if (window.confirm("Clear the quest plan and all completed quest data?")) { clearPlanData(); setPlanData({ planIds: [], completedIds: [] }); setMessage("Quest plan data cleared."); } }}>Clear quest plan data</button>}
           <p className="sr-only" aria-live="polite">{message}</p>
         </aside>
       </main>

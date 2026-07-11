@@ -152,8 +152,9 @@ for (const expected of [
   assert.equal(quest?.rewards.length, 3, `${name} must retain all screenshot rewards`);
 }
 
-const maximumPlan = `v1.${quests.map((quest) => quest.id).join(".")}`;
-assert.ok(maximumPlan.length < 3800, "A plan containing every quest must fit the supported cookie budget");
+const allQuestIds = quests.map((quest) => quest.id).join(".");
+const maximumPlan = `v2.${allQuestIds}|${allQuestIds}`;
+assert.ok(maximumPlan.length < 3800, "A plan containing and completing every quest must fit the supported cookie budget");
 assert.equal(sources.xSROMap.commit, "52bfffef4467", "xSROMap import must stay pinned");
 assert.equal(sources.xSROMap.license, "MIT", "xSROMap license metadata must be retained");
 assert.match(sources.xSROMap.sha256, /^[a-f0-9]{64}$/);
