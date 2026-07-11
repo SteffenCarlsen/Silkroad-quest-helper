@@ -10,7 +10,7 @@ const [quests, npcs, audit, sources, habitatData] = await Promise.all([
   read("monster-habitats.json"),
 ]);
 
-assert.equal(quests.length, 90, "The dataset must contain 88 parsed and 2 supplemental quests");
+assert.equal(quests.length, 91, "The dataset must contain 88 parsed and 3 supplemental quests");
 assert.equal(npcs.length, 697, "The pinned xSROMap snapshot must contain 697 NPCs");
 assert.equal(audit.unmatchedGivers.length, 0, "Every quest giver must be reviewed and mapped");
 assert.equal(audit.unmatchedRelated.length, 0, "Every related NPC mention must be resolved or excluded as a non-NPC");
@@ -62,6 +62,11 @@ for (const name of ["Noise Pollution", "The Powerful Looking Accessory"]) {
   assert.deepEqual(quest?.targetMonsterIds, [2110], `${name} must target Ujigi`);
   assert.equal(quest?.rewards.length, 3, `${name} must retain all screenshot rewards`);
 }
+const pedestrianSafety = quests.find((quest) => quest.name === "Ensuring Pedestrian Safety");
+assert.equal(pedestrianSafety?.level, 49, "Ensuring Pedestrian Safety must be level 49");
+assert.equal(pedestrianSafety?.giverNpcId, 318, "Ensuring Pedestrian Safety must be given by Merchant Associate Asaman");
+assert.deepEqual(pedestrianSafety?.targetMonsterIds, [1991], "Ensuring Pedestrian Safety must target Mujigi");
+assert.deepEqual(pedestrianSafety?.rewards, ["exp: 953,500", "sxp: 15,000", "gold: 79,000"], "Ensuring Pedestrian Safety must retain all screenshot rewards");
 
 const maximumPlan = `v1.${quests.map((quest) => quest.id).join(".")}`;
 assert.ok(maximumPlan.length < 3800, "A plan containing every quest must fit the supported cookie budget");

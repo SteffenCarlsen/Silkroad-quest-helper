@@ -2271,5 +2271,29 @@
     "notes": [],
     "town": "Hotan",
     "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
+  },
+  {
+    "id": 91,
+    "name": "Ensuring Pedestrian Safety",
+    "level": 49,
+    "repeatCount": 1,
+    "giverNpcId": 318,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1991
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Mujigis"
+    ],
+    "rewards": [
+      "exp: 953,500",
+      "sxp: 15,000",
+      "gold: 79,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4100724-valentus-online-cap-80-ch-low-rates-oldschool-new-area-jobbing-42.html"
   }
 ]

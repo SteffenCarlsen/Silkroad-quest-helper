@@ -899,6 +899,16 @@
       "method": "name",
       "distance": null,
       "review": null
+    },
+    {
+      "questId": 91,
+      "quest": "Ensuring Pedestrian Safety",
+      "mention": "Merchant Associate Asaman",
+      "npcId": 318,
+      "npc": "Merchant Associate Asaman",
+      "method": "name",
+      "distance": null,
+      "review": null
     }
   ],
   "unmatchedGivers": [],

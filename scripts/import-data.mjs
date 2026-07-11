@@ -230,22 +230,23 @@ for (const row of questRows) {
 }
 
 for (const quest of [
-  { name: "Noise Pollution", steps: ["Defeat 300 Ujigis"], rewards: ["exp: 953,500", "sxp: 18,000", "gold: 76,000"] },
-  { name: "The Powerful Looking Accessory", steps: ["Gather 30 Ujigi teeth"], rewards: ["exp: 953,500", "sxp: 22,000", "gold: 72,000"] },
+  { name: "Noise Pollution", level: 50, giver: "Soldier Pao", monster: "Ujigi", steps: ["Defeat 300 Ujigis"], rewards: ["exp: 953,500", "sxp: 18,000", "gold: 76,000"] },
+  { name: "The Powerful Looking Accessory", level: 50, giver: "Soldier Pao", monster: "Ujigi", steps: ["Gather 30 Ujigi teeth"], rewards: ["exp: 953,500", "sxp: 22,000", "gold: 72,000"] },
+  { name: "Ensuring Pedestrian Safety", level: 49, giver: "Merchant Associate Asaman", monster: "Mujigi", steps: ["Defeat 300 Mujigis"], rewards: ["exp: 953,500", "sxp: 15,000", "gold: 79,000"] },
 ]) {
   drafts.push({
     id: drafts.length + 1,
     name: quest.name,
-    level: 50,
+    level: quest.level,
     repeatCount: 1,
     town: "Hotan",
     description: quest.steps[0],
     steps: quest.steps,
     rewards: quest.rewards,
     notes: [],
-    mentions: [parseNpcMention("Soldier Pao")],
+    mentions: [parseNpcMention(quest.giver)],
     prerequisiteNames: [],
-    monsterNames: ["Ujigi"],
+    monsterNames: [quest.monster],
     sourceUrl: SUPPLEMENTAL_QUEST_URL,
   });
 }
@@ -332,7 +333,7 @@ await Promise.all([
   writeFile(new URL("sources.json", OUTPUT), `${JSON.stringify({
     xSROMap: { url: MAP_URL, commit: MAP_COMMIT, sha256: hash(mapSource), license: "MIT" },
     questList: { url: QUEST_URL, apiUrl: QUEST_API, postId: questPost.ID, modified: questPost.modified, sha256: hash(questPost.content) },
-    supplementalQuests: { url: SUPPLEMENTAL_QUEST_URL, names: ["Noise Pollution", "The Powerful Looking Accessory"], evidence: "User-provided in-game screenshots; level corroborated by linked quest list." },
+    supplementalQuests: { url: SUPPLEMENTAL_QUEST_URL, names: ["Ensuring Pedestrian Safety", "Noise Pollution", "The Powerful Looking Accessory"], evidence: "User-provided in-game screenshots; levels corroborated by linked quest list." },
   }, null, 2)}\n`),
 ]);
 
