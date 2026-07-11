@@ -1910,9 +1910,9 @@
   },
   {
     "id": 77,
-    "name": "Mamoje's Bet",
+    "name": "Mamoje's betting",
     "level": 65,
-    "repeatCount": 7,
+    "repeatCount": 3,
     "giverNpcId": 269,
     "relatedNpcIds": [],
     "targetMonsterIds": [
@@ -1924,15 +1924,14 @@
     ],
     "mutuallyExclusiveQuestIds": [],
     "steps": [
-      "Defeat Dark Kara or Death Kara to gain 20 teeth"
+      "Gather 20 Karra teeth from Dark Karra or Death Karra within 120 minutes"
     ],
     "rewards": [
-      "exp: 425,000",
-      "gold: 40,000",
+      "exp: 3,325,000",
       "sxp: 12,500"
     ],
     "notes": [
-      "Note: Time limited. 2 hours per quest and need to be done in 4 days."
+      "Complete each attempt before starting the next; finish all three within four days."
     ],
     "town": "Hotan",
     "sourceUrl": "https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/"

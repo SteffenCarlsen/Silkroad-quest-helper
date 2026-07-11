@@ -129,6 +129,11 @@ for (const name of ["Purification Seed", "Resuscitation Potion Quest"]) {
   assert.deepEqual(quest?.targetMonsterIds, [], `${name} must not invent an exact monster habitat`);
 }
 assert.equal(quests.find((quest) => quest.name === "Resuscitation Potion Quest")?.repeatCount, null, "Resuscitation Potion Quest must remain unlimited");
+const mamojeBet = quests.find((quest) => quest.id === 77);
+assert.equal(mamojeBet?.name, "Mamoje's betting", "Quest 77 must use the in-game title");
+assert.equal(mamojeBet?.repeatCount, 3, "Mamoje's betting must be available three times");
+assert.deepEqual(mamojeBet?.targetMonsterIds, [3797, 3799], "Mamoje's betting must target Dark Karra and Death Karra");
+assert.deepEqual(mamojeBet?.rewards, ["exp: 3,325,000", "sxp: 12,500"], "Mamoje's betting must retain its screenshot rewards");
 const maninasRequest = quests.find((quest) => quest.name === "Manina's request");
 assert.equal(maninasRequest?.level, 52, "Manina's request must be level 52");
 assert.equal(maninasRequest?.repeatCount, 3, "Manina's request must be available three times");

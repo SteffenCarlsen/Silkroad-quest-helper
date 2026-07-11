@@ -296,8 +296,20 @@ for (const quest of supplementalQuests) {
   });
 }
 
+const mamojeBet = drafts.find((quest) => quest.name === "Mamoje's Bet");
+if (!mamojeBet) throw new Error("Mamoje's Bet source quest was not found");
+Object.assign(mamojeBet, {
+  name: "Mamoje's betting",
+  repeatCount: 3,
+  description: "Gather 20 Karra teeth from Dark Karra or Death Karra within 120 minutes",
+  steps: ["Gather 20 Karra teeth from Dark Karra or Death Karra within 120 minutes"],
+  rewards: ["exp: 3,325,000", "sxp: 12,500"],
+  notes: ["Complete each attempt before starting the next; finish all three within four days."],
+});
+
 const audit = { matched: [], unmatchedGivers: [], unmatchedRelated: [], unmatchedMonsters: [], unresolvedPrerequisites: [], sourceWarnings: [] };
 const questNameToId = new Map(drafts.map((quest) => [normalize(quest.name), quest.id]));
+questNameToId.set(normalize("Mamoje's Bet"), mamojeBet.id);
 
 const quests = drafts.map((draft) => {
   const [giverMention, ...relatedMentions] = draft.mentions;
