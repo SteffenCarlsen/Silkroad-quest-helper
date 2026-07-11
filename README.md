@@ -2,6 +2,8 @@
 
 A dark-only, static quest planner for Silkroad Online. Search 90 level 1–80 quests and 697 NPCs, focus NPCs on the xSROMap world map, display known Crown monster habitats for selected and planned quests, and keep an ordered plan in a browser cookie.
 
+**[Open the live Silkroad Quest Helper](https://steffencarlsen.github.io/Silkroad-quest-helper/)**
+
 ## Run locally
 
 On Windows, use either entry point from PowerShell:
@@ -47,8 +49,13 @@ npm run check
 
 ## GitHub Pages
 
-The workflow in `.github/workflows/pages.yml` validates and deploys `dist/` after a push to `main`, or when run manually. In repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+The live site is available at [steffencarlsen.github.io/Silkroad-quest-helper](https://steffencarlsen.github.io/Silkroad-quest-helper/). The workflow in `.github/workflows/pages.yml` validates and deploys `dist/` after a push to `main`, or when run manually.
 
 The map tile pyramid remains hosted by the xSROMap GitHub Pages site instead of being copied into this repository. This keeps the repository small and means the base map requires network access to that site.
+
+## Credits
+
+- Quest information is based on [Shinakuma's “Questler LvL 1-80”](https://shinakuma.wordpress.com/2007/02/23/questler-lvl-1-80/).
+- World map, map tiles, and NPC data are provided by [JellyBitz/xSROMap](https://github.com/JellyBitz/xSROMap).
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution.
