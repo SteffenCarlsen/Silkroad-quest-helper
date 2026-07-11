@@ -1069,6 +1069,26 @@
       "method": "name",
       "distance": null,
       "review": null
+    },
+    {
+      "questId": 108,
+      "quest": "The Berserk Giants",
+      "mention": "Soldier Batu",
+      "npcId": 583,
+      "npc": "Soldier Batu",
+      "method": "name",
+      "distance": null,
+      "review": null
+    },
+    {
+      "questId": 109,
+      "quest": "Subjugating the God of Evil",
+      "mention": "Hunter Associate Ahmok",
+      "npcId": 252,
+      "npc": "Hunter Associate Ahmok",
+      "method": "name",
+      "distance": null,
+      "review": null
     }
   ],
   "unmatchedGivers": [],

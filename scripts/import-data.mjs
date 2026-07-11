@@ -249,6 +249,8 @@ const supplementalQuests = [
   { name: "Exterminating the Spiders", level: 52, giver: "Soldier Pao", monster: "Blue-face Spider", steps: ["Defeat 300 Blue Spiders"], rewards: ["exp: 2,148,980", "sxp: 25,000", "gold: 85,000"] },
   { name: "The Ceaseless Terror", level: 53, giver: "Storage-Keeper Auisan", monster: "White-face spider", steps: ["Defeat 300 White Spiders"], rewards: ["exp: 2,148,980", "sxp: 23,000", "gold: 87,000"] },
   { name: "Manina's request", level: 52, repeatCount: 3, giver: "Potion Merchant Manina", monsters: ["White-face spider", "Blue-face Spider"], steps: ["Gather 100 White-Face Spider webs"], rewards: ["exp: 1,650,000", "gold: 100,000"] },
+  { name: "The Berserk Giants", level: 59, giver: "Soldier Batu", monster: "Yeti", steps: ["Defeat 300 Yetis"], rewards: ["exp: 2,148,980", "sxp: 26,000", "gold: 84,000"] },
+  { name: "Subjugating the God of Evil", level: 60, giver: "Hunter Associate Ahmok", monster: "Evil-Yeti", steps: ["Defeat 300 Evil-Yetis"], rewards: ["exp: 2,148,980", "sxp: 28,000", "gold: 82,000"] },
 ];
 
 for (const quest of supplementalQuests) {

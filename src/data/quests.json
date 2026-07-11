@@ -2679,5 +2679,53 @@
     "notes": [],
     "town": "Hotan",
     "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 108,
+    "name": "The Berserk Giants",
+    "level": 59,
+    "repeatCount": 1,
+    "giverNpcId": 583,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      1996
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Yetis"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 26,000",
+      "gold: 84,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
+  },
+  {
+    "id": 109,
+    "name": "Subjugating the God of Evil",
+    "level": 60,
+    "repeatCount": 1,
+    "giverNpcId": 252,
+    "relatedNpcIds": [],
+    "targetMonsterIds": [
+      2118
+    ],
+    "prerequisiteQuestIds": [],
+    "mutuallyExclusiveQuestIds": [],
+    "steps": [
+      "Defeat 300 Evil-Yetis"
+    ],
+    "rewards": [
+      "exp: 2,148,980",
+      "sxp: 28,000",
+      "gold: 82,000"
+    ],
+    "notes": [],
+    "town": "Hotan",
+    "sourceUrl": "https://www.elitepvpers.com/forum/sro-pserver-advertising/4192961-warriors-way-online-cap-100-eu-ch-non-bot-zero-edits-12.html"
   }
 ]

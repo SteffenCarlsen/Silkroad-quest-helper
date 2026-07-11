@@ -10,7 +10,7 @@ const [quests, npcs, audit, sources, habitatData] = await Promise.all([
   read("monster-habitats.json"),
 ]);
 
-assert.equal(quests.length, 107, "The dataset must contain 88 parsed and 19 supplemental quests");
+assert.equal(quests.length, 109, "The dataset must contain 88 parsed and 21 supplemental quests");
 assert.equal(npcs.length, 697, "The pinned xSROMap snapshot must contain 697 NPCs");
 assert.equal(audit.unmatchedGivers.length, 0, "Every quest giver must be reviewed and mapped");
 assert.equal(audit.unmatchedRelated.length, 0, "Every related NPC mention must be resolved or excluded as a non-NPC");
@@ -97,6 +97,17 @@ assert.equal(maninasRequest?.repeatCount, 3, "Manina's request must be available
 assert.equal(maninasRequest?.giverNpcId, 522, "Manina's request must be given by Potion Merchant Manina");
 assert.deepEqual(maninasRequest?.targetMonsterIds, [2114, 2113], "Manina's request must target White-face and Blue-face Spiders");
 assert.deepEqual(maninasRequest?.rewards, ["exp: 1,650,000", "gold: 100,000"], "Manina's request must retain its screenshot rewards");
+for (const expected of [
+  ["The Berserk Giants", 59, 583, 1996],
+  ["Subjugating the God of Evil", 60, 252, 2118],
+]) {
+  const [name, level, giverNpcId, monsterId] = expected;
+  const quest = quests.find((candidate) => candidate.name === name);
+  assert.equal(quest?.level, level, `${name} must retain its documented level`);
+  assert.equal(quest?.giverNpcId, giverNpcId, `${name} must map to its documented giver`);
+  assert.deepEqual(quest?.targetMonsterIds, [monsterId], `${name} must map to its documented monster`);
+  assert.equal(quest?.rewards.length, 3, `${name} must retain all screenshot rewards`);
+}
 
 const maximumPlan = `v1.${quests.map((quest) => quest.id).join(".")}`;
 assert.ok(maximumPlan.length < 3800, "A plan containing every quest must fit the supported cookie budget");
