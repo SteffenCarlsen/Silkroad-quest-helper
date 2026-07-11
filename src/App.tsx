@@ -109,7 +109,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="site-header">
-        <div><span className="kicker">Level 1–80</span><h1>Silkroad Quest Helper</h1></div>
+        <div className="site-brand"><img src="./apple-touch-icon.png" alt="" aria-hidden="true" /><div><span className="kicker">Level 1–80</span><h1>Silkroad Quest Helper</h1></div></div>
         <p>Find quests, locate their NPCs, and keep your next objectives ready.</p>
       </header>
 
