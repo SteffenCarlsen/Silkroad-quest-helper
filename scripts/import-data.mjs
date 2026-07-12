@@ -307,9 +307,20 @@ Object.assign(mamojeBet, {
   notes: ["Complete each attempt before starting the next; finish all three within four days."],
 });
 
+const soboiSecondBet = drafts.find((quest) => quest.name === "Second Bet (Soboi)");
+if (!soboiSecondBet) throw new Error("Second Bet (Soboi) source quest was not found");
+Object.assign(soboiSecondBet, {
+  name: "Second betting(Soboi)",
+  repeatCount: 1,
+  description: "Collect 100 Ghosts Eyes from Demon Eye or Devil Eye",
+  steps: ["Collect 100 Ghosts Eyes from Demon Eye or Devil Eye"],
+  rewards: ["exp: 15,475,300", "sxp: 90,000"],
+});
+
 const audit = { matched: [], unmatchedGivers: [], unmatchedRelated: [], unmatchedMonsters: [], unresolvedPrerequisites: [], sourceWarnings: [] };
 const questNameToId = new Map(drafts.map((quest) => [normalize(quest.name), quest.id]));
 questNameToId.set(normalize("Mamoje's Bet"), mamojeBet.id);
+questNameToId.set(normalize("Second Bet (Soboi)"), soboiSecondBet.id);
 
 const quests = drafts.map((draft) => {
   const [giverMention, ...relatedMentions] = draft.mentions;

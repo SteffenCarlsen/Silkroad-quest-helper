@@ -1961,7 +1961,7 @@
   },
   {
     "id": 79,
-    "name": "Second Bet (Soboi)",
+    "name": "Second betting(Soboi)",
     "level": 68,
     "repeatCount": 1,
     "giverNpcId": 39,
@@ -1977,10 +1977,10 @@
       80
     ],
     "steps": [
-      "Defeat Demon Eye or Devil Eye to gain 300 eyes"
+      "Collect 100 Ghosts Eyes from Demon Eye or Devil Eye"
     ],
     "rewards": [
-      "exp: 3,400,000",
+      "exp: 15,475,300",
       "sxp: 90,000"
     ],
     "notes": [

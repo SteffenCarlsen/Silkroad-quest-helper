@@ -134,6 +134,12 @@ assert.equal(mamojeBet?.name, "Mamoje's betting", "Quest 77 must use the in-game
 assert.equal(mamojeBet?.repeatCount, 3, "Mamoje's betting must be available three times");
 assert.deepEqual(mamojeBet?.targetMonsterIds, [3797, 3799], "Mamoje's betting must target Dark Karra and Death Karra");
 assert.deepEqual(mamojeBet?.rewards, ["exp: 3,325,000", "sxp: 12,500"], "Mamoje's betting must retain its screenshot rewards");
+const soboiSecondBet = quests.find((quest) => quest.id === 79);
+assert.equal(soboiSecondBet?.name, "Second betting(Soboi)", "Quest 79 must use the in-game title");
+assert.equal(soboiSecondBet?.repeatCount, 1, "Second betting(Soboi) must be available once");
+assert.deepEqual(soboiSecondBet?.targetMonsterIds, [3800, 3801], "Second betting(Soboi) must target Demon Eye and Devil Eye");
+assert.deepEqual(soboiSecondBet?.steps, ["Collect 100 Ghosts Eyes from Demon Eye or Devil Eye"], "Second betting(Soboi) must retain its screenshot objective");
+assert.deepEqual(soboiSecondBet?.rewards, ["exp: 15,475,300", "sxp: 90,000"], "Second betting(Soboi) must retain its screenshot rewards");
 const maninasRequest = quests.find((quest) => quest.name === "Manina's request");
 assert.equal(maninasRequest?.level, 52, "Manina's request must be level 52");
 assert.equal(maninasRequest?.repeatCount, 3, "Manina's request must be available three times");
